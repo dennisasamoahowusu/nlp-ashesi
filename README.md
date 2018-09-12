@@ -1,2 +1,5 @@
 # nlp-ashesi
-This repository is for projects relating to NLP that I am involved with at Ashesi University. The members of this repository are students whose capstones I am supervising and students involved SEEL @Ashesi NLP projects.
+This repository is for projects relating to NLP that I am involved with at Ashesi University. The members of this repository are students whose capstones I am supervising and students involved with SEEL @Ashesi NLP projects.
+
+## Bilingual Turn Preaching
+It happens in some churches in Ghana that when the pastor who is preaching in English makes a statement or statements, he pauses for a translator to say what he just said to the audience in the local language. This is what I call Bilingual Turn Preaching. What we are investigating, in this project, is whether, and to what extent, a significant amount of audios from these churches can be useful as a linguistic resource for developing NLP systems in Ghanaian local languages. The value of this exploration lies in the fact that this resource is something we can get in significant amounts quite cheaply and quickly. Thus, if we can show it to be useful as an NLP resource, we would have found a feasible way to get enough data to build NLP systems in Ghanaian languages for, at least, certain tasks. Some recent works have looked into 
