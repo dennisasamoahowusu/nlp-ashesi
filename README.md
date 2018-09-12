@@ -40,3 +40,11 @@ The second job of the support bot is to attempt to automatically answer queries 
 **Proposed by:** Dennis Asamoah Owusu
 
 **Main Contributors:** Dennis Asamoah Owusu
+
+## Emotional State from Pidgin
+
+**Proposed by:** Ekab
+
+**Main Contributors:** Ekab
+
+
