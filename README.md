@@ -27,8 +27,16 @@ A voice interface may provide a quick way for sellers to give electronic change.
 
 The second part of this project is measuring whether, and to what extent, a voice interface can improve turnaround when it comes to buying and selling food. It is common to see queues at food vendor points. Graphical user interfaces are used by the sellers to check if users have enough money on their cards and to input into the system what the user is buying. Might turnaround time be improved if a voice interface was used in lieu of the graphical interface and, if it will, to what extent? This will involve developing an alternative system to buying and selling food in which voice interfaces are the main means of interaction. Once that is done, we will perform controlled experiments to measure improvements/deterioration in turnaround time.
 
+**Proposed by:** Dennis Asamoah Owusu
+
+**Main Contributors:** Dennis Asamoah Owusu
+
 ## Ashesi Support Bot
 
 The Ashesi Support Center is intended as a one-stop shop for reporting and getting solutions/answers to problems/questions members of the Ashesi community have. In particular, one support center email has been setup to which members of the Ashesi community are encouraged to send any questions or problems. When this email is received, a support center staff looks at the email, determines who is the best person to respond to or solve that problem and then notifies the person to handle the task. As the number of emails increase, it will take a longer time before emails received are routed to the people who can respond to them. The first job of the support bot is to attempt to perform this task of the support center staff/assist the staff member with that task so as to increase turnaround time.
 
 The second job of the support bot is to attempt to automatically answer queries in emails where possible. 
+
+**Proposed by:** Dennis Asamoah Owusu
+
+**Main Contributors:** Dennis Asamoah Owusu
