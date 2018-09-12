@@ -43,8 +43,8 @@ The second job of the support bot is to attempt to automatically answer queries 
 
 ## Emotional State from Pidgin
 
-**Proposed by:** Ekab
+**Proposed by:** Ekab-Osowo Tawo
 
-**Main Contributors:** Ekab
+**Main Contributors:** Ekab-Osowo Tawo
 
 
