@@ -29,4 +29,6 @@ The second part of this project is measuring whether, and to what extent, a voic
 
 ## Ashesi Support Bot
 
-The Ashesi Support Center is intended as a one-stop shop for reporting and getting solutions/answers to problems/questions members of the Ashesi community have. In particular, one support center email has been setup to which members of the Ashesi community are encouraged to send any questions or problems.
+The Ashesi Support Center is intended as a one-stop shop for reporting and getting solutions/answers to problems/questions members of the Ashesi community have. In particular, one support center email has been setup to which members of the Ashesi community are encouraged to send any questions or problems. When this email is received, a support center staff looks at the email, determines who is the best person to respond to or solve that problem and then notifies the person to handle the task. As the number of emails increase, it will take a longer time before emails received are routed to the people who can respond to them. The first job of the support bot is to attempt to perform this task of the support center staff/assist the staff member with that task so as to increase turnaround time.
+
+The second job of the support bot is to attempt to automatically answer queries in emails where possible. 
