@@ -15,3 +15,12 @@ Despite the perculiarities and challenges of this data source, it may still be p
 **Proposed by:** Dennis Asamoah Owusu
 
 **Main Contributors:** Dennis Asamoah Owusu, David Sasu
+
+
+## Ok Nsesa!
+
+This work will explore the use of voice interface in the selling of food at Ashesi University. One of the problems that food sellers and buyers face at Ashesi is the difficulty of getting change for buyers especially when the change amount is small like 20 pesewas, 40 pesewas etc. One way that this is handled currently is for sellers to either keep the change or simply tell buyers to come for their change later. Sometimes, the sellers write the change amount and the day's date on a receipt; the idea being that buyers can bring the receipt later for their change or use the change as part payment for their next purchase. On occasion, sellers don't collect the full amount because of change. The seller may let the buyer pay 1 cedi for an item that costs 1.20 cedis to avoid needing to give change.
+
+The current situation is not satisfactory. Some buyers complain of losing change. This happens because a buyer may forget to collect their change or misplace the receipt having their change amount by their next purchase. Sellers should care about this because it negatively impacts the customer experience. Sometimes, valuable time is wasted disputing about change. This situation may be ripe for some technological intervention. The basic idea is for buyer's change to be converted to electronic money which they can use for buying mobile phone credit or donating to some cause at Ashesi or for some other electronic purchase. This process of converting change to electronic money during a purchase must be fast enough to be worth it. Sellers and buyers alike may be loath to waste precious time on 20 or 50 pesewas change. 
+
+A voice interface may provide a quick way for sellers to give electronic change. At a point that the seller realizes that (s)he has not change to give the buy, (s)he quickly says, 'Ok Nsesa, give 50 pesewas change to xxxx ' and the buyer's electronic account gets credited. This we assume will be faster and more convenient than having to navigate a graphical interface for a
