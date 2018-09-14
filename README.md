@@ -43,9 +43,13 @@ The second part of this project is measuring whether, and to what extent, a voic
 
 ## Farmers Aid
 
-Providing farmers with information such as the market prices of their goods or what the weather will look like the coming week is beneficial to farmers. Illiteracy, however, limits the power of systems that are designed for providing farmers information. The author's friend who helped design one such system for farmers and performed user experience research shared that they had to whittle down the system. They shared less information with the farmers because too much information confused them since they could not read. Furthermore, the system could not be interactive - information was just pushed to the farmers. While these farmers could not read or speak English, they have local languages that they are fluent in. What if the farmers could interact with the system in their native language? They could request what information they needed and receive audio responses. 
+Providing farmers with information such as the market prices of their goods or what the weather will look like the coming week is beneficial to them. Illiteracy, however, limits the power of systems that are designed for providing farmers information. The author's friend who helped design one such system for farmers and performed user experience research shared that they had to whittle down the system. They shared less information with the farmers because too much information confused them as they could not read. Furthermore, the system could not be interactive - information was just pushed to the farmers. While these farmers could not read or speak English, they have local languages that they are fluent in. What if the farmers could interact with the system in their native language? They could request what information they needed and receive audio responses. 
 
-Another related problem occurs in the profiling of farmers. The farmers are unable to fill a form accurately and thus service providers have to resort to the farmers calling and a person taking down their details which is not tenable for large numbers of farmers (cite here). Again, what if the farmers could interact with a system that is in their language so they could provide their details without speaking to someone? This project involves prototyping a system that farmers can interact with in their local language to obtain and share information.  
+Another related problem occurs in the profiling of farmers. The farmers are unable to fill a form accurately and thus service providers have to resort to the farmers calling and a person taking down their details. This is not tenable when the number of farmers grows (cite here). Again, what if the farmers could interact with a system that is in their language so they could provide their details without speaking to someone? This project involves prototyping a system that farmers can interact with in their local language to obtain and share information.  
+
+**Proposed by:** Dennis Asamoah Owusu
+
+**Main Contributors:** Dennis Asamoah Owusu
 
 ## Emotional State from Pidgin
 
