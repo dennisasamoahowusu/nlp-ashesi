@@ -53,6 +53,8 @@ Another related problem occurs in the profiling of farmers. The farmers are unab
 
 ## Emotional State from Pidgin
 
+This project will look at predicting emotional state from pidgin. (Details coming soon)
+
 **Proposed by:** Ekab-Osowo Tawo
 
 **Main Contributors:** Ekab-Osowo Tawo
