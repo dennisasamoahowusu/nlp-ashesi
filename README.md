@@ -17,6 +17,10 @@ Despite the perculiarities and challenges of this data source, it may still be p
 
 **Main Contributors:** Dennis Asamoah Owusu, David Sasu
 
+## Approaches to a Voice User Interface in native Ghanaian Languages
+
+This work will compare various approaches to building a voice interface that users can interact with through a native Ghanaian language. [Using Conventional Means, Direct Speech translation with data with existing in the format we want, Direct Speech translation using bilingual turn preaching data, Applying transfer learning to small amounts of data we collect in conventional format] Details coming soon.  
+
 ## Ashesi Support Bot
 
 The Ashesi Support Center is intended as a one-stop shop for reporting and getting solutions/answers to problems/questions members of the Ashesi community have. In particular, a support center email has been setup to which members of the Ashesi community are encouraged to send any questions or problems. When this email is received, a support center staff looks at the email, determines who is the best person to respond to or solve that problem and then notifies the person to handle the task. As the number of emails increase, it will take a longer time before emails received are routed to the people who can respond to them. The first job of the Ashesi Support bot is to predict who a support email should be sent to. The second job of the support bot is to attempt to automatically answer queries in emails where possible. We will also be looking into a chatbot that can answer queries and guide people to resolve some of the issues for which they contact support.
