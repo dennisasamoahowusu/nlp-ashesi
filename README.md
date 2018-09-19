@@ -2,6 +2,14 @@
 # nlp-ashesi
 This repository is for projects relating to NLP that I am involved with at Ashesi University. The members of this repository are students whose capstones I am supervising and students involved with SEEL @Ashesi NLP projects.
 
+## Natural Language Processing for Native Ghanaian Languages
+
+It is desirable to develop NLP systems for Ghanaian languages even if the power of those systems are relatively limited. The Farmers Aid project, described below, describes a use case for an NLP system that recognizes and processes speech for a very limited domain. This work explores various approaches to building an NLP system for Ghanaian languages bearing in mind a limited use case like what is described in the Farmers Aid project. We will examine and demonstrate the feasibility or lack thereof of building a system for this task via conventional means (i.e. in a way that is very similar to how such a system might be developed in, say, English). We will explore other approaches that fall into two categories. The first category is the use of unconventional data sources such as Bible and hymnbook translations, bilingual turn preaching (described below) etc. The second category is the use of limited conventional data sources. For instance, we might create a limited amount of audio with their transcriptions. The question we will be attempting to answer is whether any of these approaches or a hodge podge of them could be effective for developing an NLP system for a task as limited in scope as the Farmers Aid project.
+
+**Proposed by:** Dennis Asamoah Owusu
+
+**Main Contributors:** Dennis Asamoah Owusu, David Sasu
+
 ## Bilingual Turn Preaching
 It happens in some churches in Ghana that when the pastor who is preaching in English makes a statement or statements, he pauses for a translator to say what he just said to the audience in the local language. This is what I call Bilingual Turn Preaching. What we are investigating, in this project, is whether, and to what extent, a significant amount of audios from such churches can be useful as a linguistic resource for developing NLP systems in Ghanaian local languages. The value of this exploration lies in the fact that this resource is something we can get in significant amounts quite cheaply and quickly. Thus, if we can show it to be useful as an NLP resource, we would have found a feasible way to get enough data to build NLP systems in Ghanaian languages for, at least, certain tasks. 
 
@@ -12,14 +20,6 @@ This approach, however, requires its own kind of data, namely, audio in the sour
 If we wanted to use the data in the manner that others who have attempted speech translation have, we will have to find a way to segment the data - determine where english utterances begin and end and where local language utterances begin and end. (Perhaps, using language identification?) Then, we will have to pair english statements with local language statements. Beyond this problem of segmentation and pairing, the data has its own perculiarities including the fact that not everything that is said in English may end up in the translation and translators sometimes add things the preacher did not say. Some translations may also just be plain wrong since those translating are not necessarily experts in both languages. Furthermore, the data is likely to have significant noise considering the fact that in some churches, the parishioners clap or shout statements as the preaching is going on. There is also the question of the limitedness of the domain and whether what is learned from the data may be useful in non-church settings.
 
 Despite the perculiarities and challenges of this data source, it may still be possible to extract useful information. The hope stems from the fact that we can potentially collect significant amounts of this sort of data. This implies that we will not be limited in terms of which machine learning algorithms and techniques we can apply. Our goal is to figure out a way to use this data for some nlp system. The contributions of this work will include collecting and open sourcing bilingual turn preachings in Ghanaian languages, providing a systematic way to segment and pair translated statements or pairs of translated statements from the audio, providing a systematic way to learn associations between local language words or phrases and English words and phrases, and demonstrating how the learned associations can be useful in some NLP task. Even though we will be looking at direct speech translation, we will also look at possibly extracting useful information from the audios even without segmentation and pairing.    
-
-**Proposed by:** Dennis Asamoah Owusu
-
-**Main Contributors:** Dennis Asamoah Owusu, David Sasu
-
-## Approaches to a Voice User Interface in native Ghanaian Languages
-
-This work will compare various approaches to building a voice interface that users can interact with through a native Ghanaian language. [Using Conventional Means, Direct Speech translation with data with existing in the format we want, Direct Speech translation using bilingual turn preaching data, Applying transfer learning to small amounts of data we collect in conventional format] Details coming soon.  
 
 **Proposed by:** Dennis Asamoah Owusu
 
