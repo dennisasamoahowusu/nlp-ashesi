@@ -34,6 +34,17 @@ The Ashesi Support Center is intended as a one-stop shop for reporting and getti
 **Main Contributors:** Dennis Asamoah Owusu
 
 
+## One-for-All Support System for Financial Institutions
+
+In some financial institutions, customers are assigned relationship managers that they can contact with their issues for resolution. Customers, typically, have the phone numbers or emails of these relationship managers and email, call or text them with their problems. This direct to direct communication between customers and their relationship managers provides no direct and transparent way for the bank to directly monitor customer issues as well how relationship managers are doing in responding to these customer requests. At the same time, texting is, increasingly, a preffered way for people, especially, young people, to communicate.  There may be some advantages to providing one single point/platform customers should use in reaching their relationship managers. The messages sent can then be routed to the relationship manager associated with the customer. This way provides a way for the bank to directly and transparently monitor customer issues. 
+
+More than that, it provides a way for the bank to take advantage of NLP technologies to improve the customer experience. First, a bot could be used to resolve some of the customer issues. Suppose, customer A makes an enquiry about what is needed to open an additional account and the relationship manager answers that and then the next day customer B asks the same question, perhaps, differently worded. An intelligent bot could recognize that customer B is seeking the same answer as B and automatically respond. Secondly, for certain requests, relationship managers simply relay the request to some appriopriate department to handle. An intelligent bot could do that as well. For instance, it could route a card related request to the cards department as soon as the message is received and then alert the relationship manager that this request came in and the message has been relayed to the cards department. This will avoid the delay between when a request comes in and when a relationship manager is able to read the request and then relay it. It will also save the relationship manager time as (s)he does not have to relay the request. Many more advantages can be presented but these two should suffice to show the relevance of this project.
+
+**Proposed by:** Dennis Asamoah Owusu
+
+**Main Contributors:** Dennis Asamoah Owusu
+
+
 ## Ok Nsesa!
 
 This work will explore the use of voice interface in the selling of food at Ashesi University. One of the problems that food sellers and buyers face at Ashesi is the difficulty of getting change for buyers especially when the change amount is small like 20 pesewas, 40 pesewas etc. One way that this is handled currently is for sellers to either keep the change or simply tell buyers to come for their change later. Sometimes, the sellers write the change amount and the day's date on a receipt; the idea being that buyers can bring the receipt later for their change or use the change as part payment for their next purchase. On occasion, sellers don't collect the full amount to avoid needing to give change. For instance, the seller may let the buyer pay 1 cedi for an item that costs 1.20 cedis to avoid needing to give change.
@@ -58,6 +69,7 @@ Another related problem occurs in the profiling of farmers. The farmers are unab
 **Proposed by:** Dennis Asamoah Owusu
 
 **Main Contributors:** Dennis Asamoah Owusu
+
 
 ## Emotional State from Pidgin
 
