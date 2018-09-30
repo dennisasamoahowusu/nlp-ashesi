@@ -37,6 +37,10 @@ The Ashesi Support Center is intended as a one-stop shop for reporting and getti
 
 Chalkboard Education is a startup that offers e-learning solutions to schools by enabling them to host their content on the cloud to be accessed by their students remotely and offline. They currently have over 4,000 users but one support line. This support line is created to answer and resolve a wide array of customer queries. However, having a single human being doing this is a sub-optimum solution. This project seeks to build a domain specific chat bot for Chalkboard that would handle a wide schope of customer queries to enable Chalkboard need minimal to no human intervention in their support centre.
 
+**Proposed by:** Yoofi Brown-Pobee
+
+**Main Contributors:** Dennis Asamoah Owusu, Yoofi Brown-Pobee
+
 ## One-for-All Support System for Financial Institutions
 
 In some financial institutions, customers are assigned relationship managers that they can contact with their issues for resolution. Customers, typically, have the phone numbers or emails of these relationship managers and email, call or text them with their problems. This direct to direct communication between customers and their relationship managers provides no direct and transparent way for the bank to directly monitor customer issues as well how relationship managers are doing in responding to these customer requests. At the same time, texting is, increasingly, a preffered way for people, especially, young people, to communicate.  There may be some advantages to providing one single point/platform customers should use in reaching their relationship managers. The messages sent can then be routed to the relationship manager associated with the customer. This way provides a way for the bank to directly and transparently monitor customer issues. 
