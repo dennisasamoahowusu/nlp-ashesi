@@ -33,6 +33,9 @@ The Ashesi Support Center is intended as a one-stop shop for reporting and getti
 
 **Main Contributors:** Dennis Asamoah Owusu
 
+## Chalkboard Education Support Bot
+
+Chalkboard Education is a startup that offers e-learning solutions to schools by enabling them to host their content on the cloud to be accessed by their students remotely and offline. They currently have over 4,000 users but one support line. This support line is created to answer and resolve a wide array of customer queries. However, having a single human being doing this is a sub-optimum solution. This project seeks to build a domain specific chat bot for Chalkboard that would handle a wide schope of customer queries to enable Chalkboard need minimal to no human intervention in their support centre.
 
 ## One-for-All Support System for Financial Institutions
 
