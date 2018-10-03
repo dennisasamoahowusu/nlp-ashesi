@@ -1,4 +1,4 @@
-OK NSESA Project
+OK NSESA Project Description
 
 
 The project seeks to explore the use of Voice User Interfaces (VUIs) to augment buying and selling in Ashesi University. Even with the emerging payment technologies, buying and selling in Ashesi University and others are done with cash, as oppose digitally. There is no issue with that. However, a lot more problems surface when the seller has to give change to the buyer. The inconvenience of getting change for buyers especially when the change amount is quite small, such as GHC 1.50 pesewas, 20 pesewas, etc. is becoming nerve-wracking.
