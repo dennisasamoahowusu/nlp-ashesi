@@ -68,9 +68,9 @@ Another related problem occurs in the profiling of farmers. The farmers are unab
 **Main Contributors:** Dennis Asamoah Owusu
 
 
-## Emotional State from Pidgin
+## Accessing the impact of African Accent on Speech Recognition Systems.
 
-This project will look at predicting emotional state from pidgin. (Details coming soon)
+This project will look at the impact which the African accent have on Speech recognition systems. The aim of this reseach is to answer certain questions regarding the African accent on speech recognition. The questions include, to what extent does the African accent affect the interpretation of speech recognition systems. Another question involves what is the best speech recognition system for Africans. This questions are however subject to change based on more research as well as feedback from interested parties.
 
 **Proposed by:** Ekab-Osowo Tawo
 
