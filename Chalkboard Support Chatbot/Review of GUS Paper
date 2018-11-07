@@ -1,0 +1,10 @@
+GUS A Frame Based Dialog System
+
+Problems with tackled Natural Dialog using GUS
+
+GUS is a mixed initiative system. Which is a computer-human interaction in which either the computer or the human can take initiative and decide what to do next. In it's interactions, GUS attempts to retain the initiative but not to the extent of jeopardizing the natural flow of the conversation.
+
+Indirect answers
+There are many things that can constitute an answer to a question. Some answers given can achieve the goal of the question but in an indirect manner. For instance:
+
+GUS: What time do you want to leave
