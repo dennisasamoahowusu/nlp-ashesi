@@ -2,9 +2,23 @@ GUS A Frame Based Dialog System
 
 Problems with tackled Natural Dialog using GUS
 
+--Mixed Initiatives
 GUS is a mixed initiative system. Which is a computer-human interaction in which either the computer or the human can take initiative and decide what to do next. In it's interactions, GUS attempts to retain the initiative but not to the extent of jeopardizing the natural flow of the conversation.
 
-Indirect answers
+--Indirect answers
 There are many things that can constitute an answer to a question. Some answers given can achieve the goal of the question but in an indirect manner. For instance:
 
-GUS: What time do you want to leave
+GUS: What time do you want to leave?
+Client: I must be in San Diego before 10am
+
+The clients response answers the question indirectly. A more direct answer could have given a specific time to leave. Nonetheless both answers manage to achieve the goal of constraining selection choices GUS will give to the Client. Some level of inference necessary to intepret indirect answers can be complex. GUS is able to handle this thanks to its very narrow expectations it has about the clients goals and the subject matter.
+
+--Resolving anaphora
+Anaphora is the use of a word referring back to a word used earlier in a text or conversation, to avoid repetition, for example the pronouns he, she, it, and they and the verb do in I like it and so do they. Some complicated reasoning involving both content and context of the conversation. 
+
+--Sentence Fragments
+Sometimes answers to questions and queries are given as sentence fragments rather than full direct sentences. These fragments can be understood when they are plugged into more complete sentences to give meaning.
+
+--Conversational patterns
+
+
