@@ -20,5 +20,43 @@ Anaphora is the use of a word referring back to a word used earlier in a text or
 Sometimes answers to questions and queries are given as sentence fragments rather than full direct sentences. These fragments can be understood when they are plugged into more complete sentences to give meaning.
 
 --Conversational patterns
+GUS must be able to fit its conversational strategy to patterns. In the paper, the client specifies an arrival time to constrain the choice of flights to be made available. Flights are usually specified by departure time but GUS is able to follow the pattern given by the client to relate flights by arrival time. 
 
+Organizing the program.
+Decomposing it into simpler more comprehensible parts and to develop and debug those in isolation from one another. 
+
+After they are broken down, building them back up into a single system is a challenge as complex systems are more than a sum of their parts. 
+GUS was implemented to determine whether a modular approach for a dialog system was feasible and to test what decomposition could look like. 
+
+Processes and structures in GUS:
+The morphological analyzer
+The syntatic analyzer
+The frame reasoner 
+The language generator
+
+--Control
+There should be a mechanism that decides what should be done next. GUS puts potential processes on an agenda. 
+It operates like this:
+Examine the agenda
+Choose the next job to be done 
+Perform job
+
+Executing tasks places new tasks on the agenda. 
+
+--Monitoring and Debugging
+Tools are needed for programmers to monitor the flow of control and changes in the data structures.
+
+--External databases
+GUS can be linked to external databases of information to respond to query. It does not need to memorize the data in the same way humans dont. Only the part of the database relevant to the task is brought to the working memory
+
+How the GUS works in the backend
+
+Starting with a sentence like "I want to go to San Diego on May 28", 
+A sequence of words is identified by a lexical analyzer consisting of a dictionary lookup process and a morphological analysis. The program that does the analysis has access to a main dictionary of more than 3,000 stems and simple idioms  and a body of morphologial rules specifying how the information in the dictionary can be used to partition character sequences into known lexical items. It outputs a chart of syntactic and semantic information the parser can use. 
+
+It has a query-map that has a set of templates for all the questions that might be asked by the system. GUS uses a table lookup mechanism to find the appropriate template and generates the English by filling the template form.
+
+THE REASONING COMPONENT
+
+--Frames
 
