@@ -1,0 +1,129 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_welcome_msg
+- utter_did_that_help
+- utter_admission
+- utter_location
+- utter_education
+- utter_goodbye
+- utter_affirmative
+- utter_negative
+- action_greet_user
+- action_say_bye
+- action_admission
+- action_affirmative_negative
+- utter_application
+- utter_fees
+- action_fees
+- action_scholarships
+- utter_scholarships
+- action_application
+- action_offices
+config:
+  store_entities_as_slots: true
+entities:
+- core_info
+- population
+- founder
+- contact_info
+- history
+- liberal_art
+- honour_code
+- selection_criteria
+- academic_qualification
+- transfer_students
+- contact_admin
+- personality
+- admission_open
+- deadline
+- academic_qualification_nonGhanaian
+- academic_qualifications_engineering
+- text_books
+- tuition_installment
+- application_process
+- online_application
+- paper_application
+- application_fee
+- application_fee_methods
+- application_form_submission
+- scholarship_type
+- scholarship_cover
+- scholarship_selection
+- tuition
+- office
+forms: []
+intents:
+- greet:
+    use_entities: true
+- bye:
+    use_entities: true
+- fees:
+    use_entities: true
+- admission_process:
+    use_entities: true
+- ashesi_location:
+    use_entities: true
+- ashesi_education:
+    use_entities: true
+- about_ashesi:
+    use_entities: true
+- affirmative:
+    use_entities: true
+- negative:
+    use_entities: true
+- application:
+    use_entities: true
+- scholarships:
+    use_entities: true
+- offices:
+    use_entities: true
+slots: {}
+templates:
+  utter_admission:
+  - text: Ashesi admission screens the best blab bhlajs
+  utter_affirmative:
+  - text: Glad to hear that
+  utter_application:
+  - text: "1. Start Online Application or Paper Application. 2.  Pay Application Fees.\
+      \ GHs100 for Ghanaian nationals; $50 for international applicants. The Late\
+      \ Admissions period attracts an extra GHs50. We also do not accept scholarship\
+      \ and international applications for the Late Admissions period. 3. Submit completed\
+      \ applications by post, email or in person.\nNB: The admissions office can only\
+      \ process your application upon receipt of the proof of payment. "
+  utter_default:
+  - text: Sorry I dont understand
+  utter_did_that_help:
+  - buttons:
+    - payload: great
+      title: yeah great
+    - payload: incorrect
+      title: not really
+    text: Did that help you?
+  utter_education:
+  - text: Ashesi Eduction is built on a liberal art system
+  utter_fees:
+  - text: "Study Abroad at Ashesi  Open or Close Administrative Fee  $1,106 Housing\
+      \ $2,063 Tuition Fee $1,584 Total $4753 ****\nGhanaians\nTuition fee per semester\
+      \  $4,068 / semester $4,068 / semester Other Fees Medical insurance (not required\
+      \ with proof of other medical insurance)  $240 / year $240 / year On-campus\
+      \ housing (optional)  $964\nExchange Students Tuition fee per course  $1,667\
+      \ Housing fee $2169 Administrative fee  $1,162"
+  utter_goodbye:
+  - text: Great, bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_location:
+  - text: Ashesi is located at the mountain of Aburi, a town called Berekusu
+  utter_negative:
+  - text: Oops sorry I couldn't help
+  utter_scholarships:
+  - text: Scholarship cover varies, based on demonstrated need. Ashesi's scholarships
+      can cover a part of tuition fees, or at the entire cost of studying at Ashesi.
+      Some categories of scholarships cover not only the full tuition, but also cover
+      housing, meals on campus, learning materials, and support for basic living expenses.
+      Applicants who are awarded scholarships will be informed of the conditions of
+      their scholarship, in their admissions package.
+  utter_welcome_msg:
+  - text: Hey I am your assistant, ask me anything about ashesi

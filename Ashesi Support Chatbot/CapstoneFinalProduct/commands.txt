@@ -1,0 +1,27 @@
+
+####################TRAIN NLU DATASET
+python -m rasa_nlu.train -c nlu_config.yml --data nlu_data/ -o models --fixed_model_name nlu --project current --verbose
+
+##bash your flask server.py#######
+python server.py
+
+##Starting Ngrok server  using ngrok desktop app#####
+ngrok http 5000
+run the https ulr on your browser
+
+####running the chat on message####
+visit facebook developer and click edit subscription and add the https url from ngrok server 
+Add the verfy token from servey.py
+
+################### TRAIN RASA CORE OR DAILOGUE MANAGER ### no longer necessary
+python -m rasa_core.train -d domain.yml -s stories.md -o models/dialogue
+
+########### BOUNCE UP THE SERVER
+python -m rasa_core.run -d models/dialogue -u models/current/nlu --endpoints endpoints.yml
+
+########### START ACTION SERVER ####################
+python -m rasa_core_sdk.endpoint --actions custom_actions
+
+
+
+

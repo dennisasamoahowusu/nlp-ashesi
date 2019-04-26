@@ -1,0 +1,2130 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Do you know Mr William Annoh office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "Mr William Annoh",
+            "entity": "mr william annoh"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Annoh",
+            "entity": "mr william annoh"
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "William",
+            "entity": "mr william annoh"
+          }
+        ]
+      },
+      {
+        "text": "where is Ms. Rose Dodd office situated",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 22,
+            "value": "Ms. Rose Dodd",
+            "entity": "ms rose dodd"
+          },
+          {
+            "start": 9,
+            "end": 38,
+            "value": "Ms. Rose Dodd office situated",
+            "entity": "ms rose dodd"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Dodd",
+            "entity": "ms rose dodd"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "Rose",
+            "entity": "ms rose dodd"
+          }
+        ]
+      },
+      {
+        "text": "get me Dr Korsah Ayorkor                 ",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Korsah",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 10,
+            "end": 24,
+            "value": "Korsah Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 7,
+            "end": 24,
+            "value": "Dr Korsah Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "I would like to know where Dr Ayorkor Korsahs office is",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 27,
+            "end": 45,
+            "value": "Dr Ayorkor Korsahs",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "where is Dr Ayawoa Dagbovie office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Dr Ayawoa",
+            "entity": "dr ayawoa dagbovie"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Ayawoa",
+            "entity": "dr ayawoa dagbovie"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Dagbovie",
+            "entity": "dr ayawoa dagbovie"
+          },
+          {
+            "start": 9,
+            "end": 27,
+            "value": "Dr Ayawoa Dagbovie",
+            "entity": "dr ayawoa dagbovie"
+          },
+          {
+            "start": 12,
+            "end": 27,
+            "value": "Ayawoa Dagbovie",
+            "entity": "dr ayawoa dagbovie"
+          }
+        ]
+      },
+      {
+        "text": "where is Mr David Sampah office positioned",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Sampah",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 12,
+            "end": 24,
+            "value": "David Sampah",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 9,
+            "end": 24,
+            "value": "Mr David Sampah",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "where can I find Mr Anthony office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "Mr Anthony",
+            "entity": "mr anthony essel-anderson"
+          },
+          {
+            "start": 17,
+            "end": 34,
+            "value": "Mr Anthony office",
+            "entity": "mr anthony essel-anderson"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Anthony",
+            "entity": "mr anthony essel-anderson"
+          }
+        ]
+      },
+      {
+        "text": "do you know where Mr Joseph Mensah office is spotted",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Mr Joseph Mensah",
+            "entity": "mr joseph agyapong mensah "
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Mensah",
+            "entity": "mr joseph agyapong mensah "
+          },
+          {
+            "start": 21,
+            "end": 34,
+            "value": "Joseph Mensah",
+            "entity": "mr joseph agyapong mensah "
+          }
+        ]
+      },
+      {
+        "text": "where is Prof. Pashington Obeng office sited",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Obeng",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 15,
+            "end": 31,
+            "value": "Pashington Obeng",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 9,
+            "end": 31,
+            "value": "Prof. Pashington Obeng",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "do you know where Dr. Edgar Cooke office is stationed",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "Cooke",
+            "entity": "dr edgar cooke"
+          },
+          {
+            "start": 18,
+            "end": 53,
+            "value": "Dr. Edgar Cooke office is stationed",
+            "entity": "dr edgar cooke"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "Cook",
+            "entity": "dr edgar cooke"
+          },
+          {
+            "start": 18,
+            "end": 32,
+            "value": "Dr. Edgar Cook",
+            "entity": "dr edgar cooke"
+          },
+          {
+            "start": 18,
+            "end": 33,
+            "value": "Dr. Edgar Cooke",
+            "entity": "dr edgar cooke"
+          },
+          {
+            "start": 18,
+            "end": 33,
+            "value": "Dr. Edgar Cooke",
+            "entity": "dr edgar cooke"
+          }
+        ]
+      },
+      {
+        "text": "hod of CS",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "hod of CS",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "Dr Korsah the hod of CS",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Dr Korsah the hod of CS",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "Computer Science hod",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Computer Science hod",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "where is Asamoah Owusu Dennis office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "where is Asamoah Owusu Dennis office",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Asamoah",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 17,
+            "end": 29,
+            "value": "Owusu Dennis",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dennis",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "hod for Humanities and Social Sciences",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "hod for Humanities and Social Sciences",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "Humanities and Social Sciences hod",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Humanities and Social Sciences hod",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "where is Dr Nathan Amanquahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "where is Dr Nathan Amanquahs office",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 12,
+            "end": 27,
+            "value": "Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 9,
+            "end": 27,
+            "value": "Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Nathan",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Ayorkors office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Ayorkors",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "Ayorkor office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Ayorkor office",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "who is Dr Korsah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Dr Korsah",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Korsah",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "Dr Korsah Ayorkor G",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Dr Korsah Ayorkor G",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "where is Dr Korsah Ayorkor G office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Korsah",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Dr Korsah",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 9,
+            "end": 28,
+            "value": "Dr Korsah Ayorkor G",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 9,
+            "end": 28,
+            "value": "Dr Korsah Ayorkor G",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "location of Dr Ayorkor Korsah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Dr Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Korsah",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 12,
+            "end": 29,
+            "value": "Dr Ayorkor Korsah",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 0,
+            "end": 29,
+            "value": "location of Dr Ayorkor Korsah",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "where is Dr Korsahs office situated",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Dr Korsahs",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 9,
+            "end": 26,
+            "value": "Dr Korsahs office",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 9,
+            "end": 35,
+            "value": "Dr Korsahs office situated",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "office for Dr Korsah Ayorkor",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "Korsah Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 11,
+            "end": 28,
+            "value": "Dr Korsah Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 0,
+            "end": 28,
+            "value": "office for Dr Korsah Ayorkor",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "where is dr Korsahs office situated",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "dr Korsah",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "dr Korsahs",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 9,
+            "end": 26,
+            "value": "dr Korsahs office",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 9,
+            "end": 35,
+            "value": "dr Korsahs office situated",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 0,
+            "end": 35,
+            "value": "where is dr Korsahs office situated",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "Do you know Dr Korsahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Dr Korsah",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Dr Korsahs",
+            "entity": "dr korsah ayorkor g"
+          },
+          {
+            "start": 0,
+            "end": 29,
+            "value": "Do you know Dr Korsahs office",
+            "entity": "dr korsah ayorkor g"
+          }
+        ]
+      },
+      {
+        "text": "Do you know Dr Nathan Amanquahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 12,
+            "end": 29,
+            "value": "Dr Nathan Amanqua",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 12,
+            "end": 30,
+            "value": "Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 12,
+            "end": 38,
+            "value": "Dr Nathan Amanquahs office",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Dr Nathan Amanquah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 3,
+            "end": 18,
+            "value": "Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "who is Dr Nathan Amanquah ",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 7,
+            "end": 25,
+            "value": "Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 0,
+            "end": 25,
+            "value": "who is Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "where is Dr Nathan Amanquahs office situated",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Amanquahs",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 9,
+            "end": 27,
+            "value": "Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 9,
+            "end": 35,
+            "value": "Dr Nathan Amanquahs office",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 0,
+            "end": 44,
+            "value": "where is Dr Nathan Amanquahs office situated",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "office for Dr Nathan Amanquah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 0,
+            "end": 29,
+            "value": "office for Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "location of Dr Nathan Amanquahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": " Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 22,
+            "end": 38,
+            "value": "Amanquahs office",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 12,
+            "end": 30,
+            "value": "Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "who is the HOD of Engineering department",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 29,
+            "value": "HOD of Engineering",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 11,
+            "end": 40,
+            "value": "HOD of Engineering department",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "hod of Engineering at Ashesi",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "hod of Engineering",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Do you know where Dr Nathan Amanquah office location",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 18,
+            "end": 36,
+            "value": "Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 18,
+            "end": 43,
+            "value": "Dr Nathan Amanquah office",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 18,
+            "end": 52,
+            "value": "Dr Nathan Amanquah office location",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 12,
+            "end": 52,
+            "value": "where Dr Nathan Amanquah office location",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Engineering header of Department",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "Engineering header of Department",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Is Dr Nathan Amanquah the Engineering HOD",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 3,
+            "end": 21,
+            "value": "Dr Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 26,
+            "end": 41,
+            "value": "Engineering HOD",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 0,
+            "end": 41,
+            "value": "Is Dr Nathan Amanquah the Engineering HOD",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Professor Pashington Obeng",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Obeng",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 10,
+            "end": 26,
+            "value": "Pashington Obeng",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Professor Pashington Obeng",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": " who is Professor Pashington Obeng",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Pashington Obeng",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Pashington",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 8,
+            "end": 34,
+            "value": "Professor Pashington Obeng",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 1,
+            "end": 34,
+            "value": "who is Professor Pashington Obeng",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "Prof. Pashington Obengs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Prof. Pashington",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Prof. Pashington Obengs",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Prof. Pashington Obengs office",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Prof. Pashington Obengs office",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the location of Professor Pashington Obeng office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 31,
+            "end": 51,
+            "value": "Professor Pashington",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 31,
+            "end": 57,
+            "value": "Professor Pashington Obeng",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 19,
+            "end": 51,
+            "value": "location of Professor Pashington",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 19,
+            "end": 64,
+            "value": "location of Professor Pashington Obeng office",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "where does Prof. Pashington Obeng work",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 33,
+            "value": "Prof. Pashington Obeng",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "Dr. Stephen E. Armah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Dr. Stephen",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Dr. Stephen E. Armah",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "who is the head of Humanities and Social Sciences",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 49,
+            "value": "head of Humanities and Social Sciences",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "Humanities and Social Sciences hod",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Humanities and Social Sciences hod",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "who is the header of Humanities and Social Sciences",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 21,
+            "end": 51,
+            "value": "Humanities and Social Sciences",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 11,
+            "end": 51,
+            "value": "header of Humanities and Social Sciences",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 0,
+            "end": 51,
+            "value": "who is the header of Humanities and Social Sciences",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "office for  Dr Pashington Obeng",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "Pashington",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "Dr Pashington",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 12,
+            "end": 31,
+            "value": "Dr Pashington Obeng",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 0,
+            "end": 31,
+            "value": "office for  Dr Pashington Obeng",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "who is the hod for Business Administration",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 42,
+            "value": "hod for Business Administration",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "Business Administration hod",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "Business Administration hod",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "Business Administration chief head",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Business Administration chief head",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "who is the head of department for Business Administration",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 57,
+            "value": "head of department for Business Administration",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "who is the head of department for Humanities and Social Sciences",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 44,
+            "value": "head of department for Humanities",
+            "entity": "professor pashington obeng"
+          },
+          {
+            "start": 11,
+            "end": 64,
+            "value": "head of department for Humanities and Social Sciences",
+            "entity": "professor pashington obeng"
+          }
+        ]
+      },
+      {
+        "text": "Dr Stephen Armah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Dr Stephen",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Dr Stephen Armah",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "Dr Stephen Armahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "Stephen Armah",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 3,
+            "end": 17,
+            "value": "Stephen Armahs",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 11,
+            "end": 24,
+            "value": "Armahs office",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 3,
+            "end": 24,
+            "value": "Stephen Armahs office",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 0,
+            "end": 24,
+            "value": "Dr Stephen Armahs office",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "location of Dr Stephen Armah office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Dr Stephen",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 12,
+            "end": 28,
+            "value": "Dr Stephen Armah",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 0,
+            "end": 28,
+            "value": "location of Dr Stephen Armah",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for Dr Stephen Armahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": "Dr Stephen Armah",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 17,
+            "end": 41,
+            "value": "Dr Stephen Armahs office",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "Dr Stephen Armah office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 3,
+            "end": 23,
+            "value": "Stephen Armah office",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Dr Stephen Armah office",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "hod of Business Administration",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "hod of Business Administration",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "where is Dr Stephen Armah office positioned",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Dr Stephen Armah",
+            "entity": "dr stephen armah"
+          },
+          {
+            "start": 9,
+            "end": 32,
+            "value": "Dr Stephen Armah office",
+            "entity": "dr stephen armah"
+          }
+        ]
+      },
+      {
+        "text": "Asamoah Owusu Dennis",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "Owusu Dennis",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Asamoah Owusu",
+            "entity": "Asamoah Owusu Dennis"
+          },
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Asamoah Owusu Dennis",
+            "entity": "Asamoah Owusu Dennis"
+          }
+        ]
+      },
+      {
+        "text": "Dr Nathan office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "I want to see Dr Nathan ",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "office for Dr Nathan",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Nathan",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Office for Mr Nathan Amaquah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 14,
+            "end": 28,
+            "value": "Nathan Amaquah",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Nathan Amanquah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Nathan Amanquah",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Do you know Dr  Amanquahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Amanquahs",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 16,
+            "end": 32,
+            "value": "Amanquahs office",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Do you know Dr Amanquahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "Dr Amanquahs ",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Is Dr Amanquah  Nathan the hod",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "Amanquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 6,
+            "end": 22,
+            "value": "Amanquah  Nathan",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Office for Mr  Amaquah Nathan",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Amaquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "Mr  Amaquah",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 11,
+            "end": 29,
+            "value": "Mr  Amaquah Nathan",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "who is Dr Nathan",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Nathan",
+            "entity": "dr nathan amanquah"
+          },
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Dr Nathan",
+            "entity": "dr nathan amanquah"
+          }
+        ]
+      },
+      {
+        "text": "Mr David Sampah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Sampah",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 3,
+            "end": 8,
+            "value": "David",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Mr David Sampah",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "where is Mr David Sampahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Mr David",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Mr David Sampahs",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for Mr Sampah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Mr Sampah",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "How to locate Mr Sampah David",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "Mr Sampah David",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 6,
+            "end": 29,
+            "value": " locate Mr Sampah David",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "office for Mr Sampah",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Mr Sampah",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "Where is Mr Sampah Davids office situated",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Mr Sampah Davids",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 9,
+            "end": 41,
+            "value": "Mr Sampah Davids office situated",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the location of Mr Sampah office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Mr Sampah",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "where can I find Mr Sampahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": " Mr Sampah",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "I want to see Mr Sampah Davids office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "Mr Sampah Davids",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "Do you know where Mr David Sampah office location",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Sampah",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "David",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 18,
+            "end": 33,
+            "value": "Mr David Sampah",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "Mr Sampahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Sampahs",
+            "entity": "mr david sampah"
+          },
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Sampah",
+            "entity": "mr david sampah"
+          }
+        ]
+      },
+      {
+        "text": "directions to Asamoah Owusu Dennis office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "Asamoah Owusu",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Owusu Dennis",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 14,
+            "end": 34,
+            "value": "Asamoah Owusu Dennis",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 14,
+            "end": 41,
+            "value": "Asamoah Owusu Dennis office",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "direct me to Dennis Asamoah Owusus office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "Dennis Asamoah",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 13,
+            "end": 33,
+            "value": "Dennis Asamoah Owusu",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 13,
+            "end": 33,
+            "value": "Dennis Asamoah Owusu",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": " where is  Dennis Owusus  office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "Dennis Owusu",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 11,
+            "end": 32,
+            "value": "Dennis Owusus  office",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "who is Dennis Owusu",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "Dennis Owusu",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 0,
+            "end": 19,
+            "value": "who is Dennis Owusu",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "location of Dennis Owusu office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 31,
+            "value": "Dennis Owusu office",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 12,
+            "end": 24,
+            "value": "Dennis Owusu",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "Geographical location of Asamoah Owusu Dennis office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 33,
+            "end": 45,
+            "value": "Owusu Dennis",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 25,
+            "end": 45,
+            "value": "Asamoah Owusu Dennis",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 25,
+            "end": 52,
+            "value": "Asamoah Owusu Dennis office",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "Geographical location of Dennis Asamoah Owusus office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 25,
+            "end": 39,
+            "value": "Dennis Asamoah",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 25,
+            "end": 45,
+            "value": "Dennis Asamoah Owusu",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 25,
+            "end": 46,
+            "value": "Dennis Asamoah Owusus",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "Show me Dennis Owusus office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "Dennis Owusu",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 8,
+            "end": 28,
+            "value": "Dennis Owusus office",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "office for Dennis Owusu",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Dennis",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 11,
+            "end": 23,
+            "value": "Dennis Owusu",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "where can I find Dennis Owusus office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "Dennis Owusu",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 17,
+            "end": 37,
+            "value": "Dennis Owusus office",
+            "entity": "asamoah owusu dennis"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Dennis",
+            "entity": "asamoah owusu dennis"
+          }
+        ]
+      },
+      {
+        "text": "Dr David Ebo Adjepon-Yamoahs office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "Dr David Ebo Adjepon-Yamoahs office",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Dr David",
+            "entity": "dr david ebo adjepon-yamoah"
+          }
+        ]
+      },
+      {
+        "text": "where is Dr David Ebos office located",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "David Ebo",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 9,
+            "end": 37,
+            "value": "Dr David Ebos office located",
+            "entity": "dr david ebo adjepon-yamoah"
+          }
+        ]
+      },
+      {
+        "text": "location of Dr David Ebos office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "David Ebo",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 15,
+            "end": 32,
+            "value": "David Ebos office",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 11,
+            "end": 25,
+            "value": " Dr David Ebos",
+            "entity": "dr david ebo adjepon-yamoah"
+          }
+        ]
+      },
+      {
+        "text": "Dr Ebos office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "Ebo",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Dr Ebo",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 3,
+            "end": 14,
+            "value": "Ebos office",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Dr Ebos office",
+            "entity": "dr david ebo adjepon-yamoah"
+          }
+        ]
+      },
+      {
+        "text": "how to get to Dr Ebo Adjepon-Yamoah Davids office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "Ebo",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 17,
+            "end": 35,
+            "value": "Ebo Adjepon-Yamoah",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 17,
+            "end": 41,
+            "value": "Ebo Adjepon-Yamoah David",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 17,
+            "end": 42,
+            "value": "Ebo Adjepon-Yamoah Davids",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 14,
+            "end": 42,
+            "value": "Dr Ebo Adjepon-Yamoah Davids",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Dr Ebo",
+            "entity": "dr david ebo adjepon-yamoah"
+          }
+        ]
+      },
+      {
+        "text": "location of Dr Ebo Davids office",
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Dr Ebo",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": " Ebo",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 15,
+            "end": 25,
+            "value": "Ebo Davids",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "Dr Ebo Davids",
+            "entity": "dr david ebo adjepon-yamoah"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "Dr Ebo Davids",
+            "entity": "dr david ebo adjepon-yamoah"
+          }
+        ]
+      }
+    ]
+  }
+}

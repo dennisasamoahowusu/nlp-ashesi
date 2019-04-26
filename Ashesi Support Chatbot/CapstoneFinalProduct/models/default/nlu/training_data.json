@@ -1,0 +1,3219 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "tuition fee",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 33,
+            "value": "how much is tuition fee at Ashesi",
+            "entity": "tuition"
+          }
+        ],
+        "text": "how much is tuition fee at Ashesi"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "tuition fee",
+            "entity": "tuition_exchange_student"
+          }
+        ],
+        "text": "Exchange students tuition fee"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 14,
+            "end": 47,
+            "value": "exchange students pay for tuition",
+            "entity": "tuition_exchange_student"
+          },
+          {
+            "start": 0,
+            "end": 47,
+            "value": "How much does exchange students pay for tuition",
+            "entity": "tuition_exchange_student"
+          }
+        ],
+        "text": "How much does exchange students pay for tuition?"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "school fees",
+            "entity": "tuition_exchange_student"
+          },
+          {
+            "start": 0,
+            "end": 29,
+            "value": "Exchange students school fees",
+            "entity": "tuition_exchange_student"
+          }
+        ],
+        "text": "Exchange students school fees"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "school fee",
+            "entity": "tuition"
+          }
+        ],
+        "text": "How much is school fees"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "installment plans",
+            "entity": "tuition_installment"
+          }
+        ],
+        "text": "does Ashesi offer installment plans for school fees"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "installment",
+            "entity": "tuition_installment"
+          }
+        ],
+        "text": "Does Ashesi offer installment plans when paying tuition"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 34,
+            "end": 46,
+            "value": "installments",
+            "entity": "tuition_installment"
+          }
+        ],
+        "text": "Do you have to pay the tuition in installments "
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Study abroad",
+            "entity": "tuition"
+          }
+        ],
+        "text": "Study abroad at Ashesi school fees"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Fees",
+            "entity": "tuition_installment"
+          }
+        ],
+        "text": "Paying Fees"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 26,
+            "value": "fees structure",
+            "entity": "tuition"
+          }
+        ],
+        "text": "what is the fees structure"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "Ashesi tuition",
+            "entity": "tuition"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "cost",
+            "entity": "tuition"
+          }
+        ],
+        "text": "what is the cost of Ashesi tuition"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "charge",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "tuition"
+          }
+        ],
+        "text": "how much is the charge for Ashesi tuition"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "fee",
+            "entity": "tuition"
+          }
+        ],
+        "text": "how much is  the tuition fee for Ashesi"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "expenditure",
+            "entity": "tuition"
+          }
+        ],
+        "text": "what is the expenditure for learning at Ashesi"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "learning cost",
+            "entity": "tuition"
+          }
+        ],
+        "text": "how much is the learning cost at Ashesi"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 37,
+            "value": "tuition breakdown",
+            "entity": "tuition_installment"
+          }
+        ],
+        "text": "Is there any paying tuition breakdown for those who cannot afford to pay tuition once"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "educational cost",
+            "entity": "tuition"
+          }
+        ],
+        "text": "how much is the educational cost at Ashesi"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 13,
+            "end": 33,
+            "value": "monthly installments",
+            "entity": "tuition_installment"
+          }
+        ],
+        "text": "can I pay in monthly installments "
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 36,
+            "end": 52,
+            "value": "partial payments",
+            "entity": "tuition_installment"
+          }
+        ],
+        "text": "Is there a chance to pay my fees in partial payments"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "ways to pay tuition",
+            "entity": "payment_methods"
+          }
+        ],
+        "text": "ways to pay tuition?"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "payment methods",
+            "entity": "payment_methods"
+          }
+        ],
+        "text": "payment methods of tuition at Ashesi"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "bank",
+            "entity": "tuition"
+          },
+          {
+            "start": 17,
+            "end": 24,
+            "value": "deposit",
+            "entity": "payment_methods"
+          }
+        ],
+        "text": "which bank can I deposit my school fees"
+      },
+      {
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "settling",
+            "entity": "tuition"
+          }
+        ],
+        "text": "ways of settling my school fees"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ],
+        "text": "What is the mission of the school"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ],
+        "text": "mission of Ashesi"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ],
+        "text": "What is the vision of the university"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ],
+        "text": "vision of Ashesi"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "total population",
+            "entity": "population"
+          }
+        ],
+        "text": "total population of the students"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "population",
+            "entity": "population"
+          }
+        ],
+        "text": "What is the size of the school"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "alumni",
+            "entity": "population_alumni"
+          }
+        ],
+        "text": "How many alumni"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "graduates",
+            "entity": "population_alumni"
+          }
+        ],
+        "text": "How many graduates does Ashesi have?"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "founded",
+            "entity": "founder"
+          }
+        ],
+        "text": "Who founded the university"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "Patrick Awuah",
+            "entity": "founder"
+          }
+        ],
+        "text": "Who is Patrick Awuah"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Patrick Awuah",
+            "entity": "founder"
+          }
+        ],
+        "text": "Who is the founder of Ashesi"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Patrick Awuah",
+            "entity": "founder"
+          }
+        ],
+        "text": "President of Ashesi"
+      },
+      {
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "located",
+            "entity": "location"
+          }
+        ],
+        "text": "Where is the school located"
+      },
+      {
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Location",
+            "entity": "location"
+          }
+        ],
+        "text": "Location of Ashesi"
+      },
+      {
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 9,
+            "end": 30,
+            "value": "get to the university",
+            "entity": "ashesi_direction"
+          }
+        ],
+        "text": "How do I get to the university"
+      },
+      {
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Directions to Ashesi",
+            "entity": "ashesi_direction"
+          }
+        ],
+        "text": "Directions to Ashesi"
+      },
+      {
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Google directions",
+            "entity": "ashesi_direction"
+          }
+        ],
+        "text": "Google directions to your school"
+      },
+      {
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "physical address",
+            "entity": "location"
+          }
+        ],
+        "text": "university physical address"
+      },
+      {
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "postal address",
+            "entity": "location"
+          }
+        ],
+        "text": "Get me university's postal address"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 29,
+            "value": "more about the school",
+            "entity": "quick_facts"
+          }
+        ],
+        "text": "Tell me more about the school"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Facts about",
+            "entity": "quick_facts"
+          }
+        ],
+        "text": "Facts about the school"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "facts",
+            "entity": "quick_facts"
+          },
+          {
+            "start": 0,
+            "end": 16,
+            "value": "university facts",
+            "entity": "quick_facts"
+          }
+        ],
+        "text": "university facts"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "history",
+            "entity": "history"
+          }
+        ],
+        "text": "What is the history of the university"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "history",
+            "entity": "history"
+          }
+        ],
+        "text": "the history of the college"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "school journey",
+            "entity": "history"
+          }
+        ],
+        "text": "brief me the school journey so far"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 15,
+            "end": 38,
+            "value": "school education unique",
+            "entity": "liberal_art"
+          }
+        ],
+        "text": "What makes the school education unique"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "liberal art",
+            "entity": "liberal_art"
+          }
+        ],
+        "text": "liberal art education system"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "liberal art",
+            "entity": "liberal_art"
+          }
+        ],
+        "text": "What is a liberal art education"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ethics",
+            "entity": "honour_code"
+          }
+        ],
+        "text": "Ethics at Ashesi"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Honour code",
+            "entity": "honour_code"
+          }
+        ],
+        "text": "Honour code, what is it?"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "honor code",
+            "entity": "honour_code"
+          }
+        ],
+        "text": "hey what is the honor code about"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 23,
+            "end": 40,
+            "value": "average classroom",
+            "entity": "class_size"
+          }
+        ],
+        "text": "what is the size of an average classroom"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 8,
+            "end": 39,
+            "value": " people can sit for one lecture",
+            "entity": "class_size"
+          },
+          {
+            "start": 0,
+            "end": 49,
+            "value": "How many people can sit for one lecture at Ashesi",
+            "entity": "class_size"
+          }
+        ],
+        "text": "How many people can sit for one lecture at Ashesi"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 8,
+            "end": 56,
+            "value": " students can be in a lecture hall for a lecture",
+            "entity": "class_size"
+          },
+          {
+            "start": 0,
+            "end": 56,
+            "value": "How many students can be in a lecture hall for a lecture",
+            "entity": "class_size"
+          }
+        ],
+        "text": "How many students can be in a lecture hall for a lecture"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ],
+        "text": "mission"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "journey",
+            "entity": "history"
+          }
+        ],
+        "text": "Tell me about Ashesi journey"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 30,
+            "value": "schools enrollment",
+            "entity": "population"
+          }
+        ],
+        "text": "what is the schools enrollment"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "student body",
+            "entity": "population"
+          }
+        ],
+        "text": "how big is the student body?"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "quick facts",
+            "entity": "quick_facts"
+          }
+        ],
+        "text": "quick facts about Ashesi"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "interesting about",
+            "entity": "quick_facts"
+          }
+        ],
+        "text": "what is interesting about Ashesi"
+      },
+      {
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "liberal arts",
+            "entity": "liberal_art"
+          }
+        ],
+        "text": "liberal arts School"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "core values",
+            "entity": "core_values"
+          }
+        ],
+        "text": "Ashesi core values"
+      },
+      {
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "main values of the school",
+            "entity": "core_values"
+          }
+        ],
+        "text": "main values of the school"
+      },
+      {
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "directions",
+            "entity": "ashesi_direction"
+          }
+        ],
+        "text": "directions to Ashesi"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "looking for",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "what is Ashesi looking for in students they admit"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 13,
+            "end": 31,
+            "value": "selection criteria",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "what is your selection criteria"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "admission process",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "how is admission process like"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "accepted",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "what does it take to be accepted "
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "acceptance process",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "acceptance process at Ashesi University"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "admitted",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "how can I be admitted"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 21,
+            "end": 44,
+            "value": "admissions requirements",
+            "entity": "academic_qualifications_engineering"
+          }
+        ],
+        "text": "Engineering Students admissions requirements "
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "transfer students",
+            "entity": "transfer_students"
+          }
+        ],
+        "text": "does Ashesi accept transfer students"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "contact",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 9,
+            "end": 27,
+            "value": "contact admissions",
+            "entity": "contact_admin"
+          }
+        ],
+        "text": "how do I contact admissions "
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 13,
+            "end": 28,
+            "value": "contact details",
+            "entity": "contact_admin"
+          }
+        ],
+        "text": "get me your  contact details"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "personality",
+            "entity": "personality"
+          }
+        ],
+        "text": "does personality matter when applying"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "personality",
+            "entity": "personality"
+          }
+        ],
+        "text": "why does personality matter to be admitted"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "application starts",
+            "entity": "admission_open"
+          }
+        ],
+        "text": "when does application starts"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "open",
+            "entity": "admission_open"
+          },
+          {
+            "start": 3,
+            "end": 26,
+            "value": "application window open",
+            "entity": "admission_open"
+          }
+        ],
+        "text": "Is application window open"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 32,
+            "end": 38,
+            "value": "closes",
+            "entity": "deadline"
+          }
+        ],
+        "text": "when does application to Ashesi closes"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "ends",
+            "entity": "deadline"
+          },
+          {
+            "start": 14,
+            "end": 28,
+            "value": "admission ends",
+            "entity": "deadline"
+          }
+        ],
+        "text": "when does the admission ends"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 39,
+            "end": 61,
+            "value": "international students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ],
+        "text": "what are the academic requirements for international students"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 39,
+            "end": 60,
+            "value": "non Ghanaian students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ],
+        "text": "what are the academic requirements for non Ghanaian students"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 13,
+            "end": 36,
+            "value": "academic qualifications",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 48,
+            "end": 68,
+            "value": "engineering students",
+            "entity": "academic_qualifications_engineering"
+          }
+        ],
+        "text": "What are the academic qualifications needed for engineering students"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 13,
+            "end": 31,
+            "value": "basic requirements",
+            "entity": "academic_qualification"
+          }
+        ],
+        "text": "what are the basic requirements for admission"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 24,
+            "end": 43,
+            "value": " engineering student",
+            "entity": "academic_qualifications_engineering"
+          }
+        ],
+        "text": "Academic needs to be an Engineering student"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 37,
+            "end": 56,
+            "value": " engineering student",
+            "entity": "academic_qualifications_engineering"
+          }
+        ],
+        "text": "What prerequisite do I need to be an engineering student"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "transfer students",
+            "entity": "transfer_students"
+          }
+        ],
+        "text": "Does Ashesi accept transfer students"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "transfer",
+            "entity": "transfer_students"
+          }
+        ],
+        "text": "Can I transfer from another school"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "text books",
+            "entity": "text_books"
+          }
+        ],
+        "text": "does the tuition fee cover text books"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "text books",
+            "entity": "text_books"
+          }
+        ],
+        "text": "What about text books at Ashesi"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "admissions contact",
+            "entity": "contact_admin"
+          }
+        ],
+        "text": "admissions contact"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "admitted",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "what can I do to be admitted at your university"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "entrance",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "how can I make a successful entrance to Ashesi"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "admission",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "admission"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "admit",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "admit me at Ashesi"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 6,
+            "end": 19,
+            "value": "buy textbooks",
+            "entity": "text_books"
+          }
+        ],
+        "text": "Do we buy textbooks"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "textbooks",
+            "entity": "text_books"
+          }
+        ],
+        "text": "Do we buy textbooks"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "reading material",
+            "entity": "text_books"
+          }
+        ],
+        "text": "what about reading material"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 10,
+            "end": 28,
+            "value": "application finish",
+            "entity": "deadline"
+          }
+        ],
+        "text": "when does application finish"
+      },
+      {
+        "intent": "admission_process",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "admitted",
+            "entity": "selection_criteria"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "how can I be admitted",
+            "entity": "selection_criteria"
+          }
+        ],
+        "text": "how can I be admitted"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 13,
+            "end": 32,
+            "value": "application process",
+            "entity": "application_process"
+          }
+        ],
+        "text": "what is your application process"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "apply",
+            "entity": "application_process"
+          }
+        ],
+        "text": "how to apply to Ashesi"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Steps to apply",
+            "entity": "application_process"
+          }
+        ],
+        "text": "Steps to apply at Ashesi"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 30,
+            "value": "online application",
+            "entity": "online_application"
+          }
+        ],
+        "text": "do you have online application"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": "online application",
+            "entity": "online_application"
+          }
+        ],
+        "text": "how can I do an online application"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 9,
+            "end": 26,
+            "value": "paper application",
+            "entity": "paper_application"
+          }
+        ],
+        "text": "Is there paper application"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "hard copy",
+            "entity": "paper_application"
+          },
+          {
+            "start": 12,
+            "end": 40,
+            "value": "hard copy application papers",
+            "entity": "paper_application"
+          }
+        ],
+        "text": "Do you have hard copy application papers"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "application fee",
+            "entity": "application_fee"
+          }
+        ],
+        "text": "How much is application fee"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "cost for applying",
+            "entity": "application_fee"
+          }
+        ],
+        "text": "Is there a cost for applying"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "paying",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 13,
+            "end": 43,
+            "value": "ways of paying application fee",
+            "entity": "application_fee_methods"
+          }
+        ],
+        "text": "what are the ways of paying application fee"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 16,
+            "end": 35,
+            "value": "methods of payments",
+            "entity": "application_fee_methods"
+          }
+        ],
+        "text": "application fee methods of payments "
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "submit",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 9,
+            "end": 35,
+            "value": "submit my application form",
+            "entity": "application_form_submission"
+          }
+        ],
+        "text": "how do I submit my application form"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 19,
+            "end": 44,
+            "value": "finished application form",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "submit",
+            "entity": "application_form_submission"
+          }
+        ],
+        "text": "how do I submit my finished application form"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "deadline",
+            "entity": "deadline"
+          },
+          {
+            "start": 12,
+            "end": 32,
+            "value": "application deadline",
+            "entity": "deadline"
+          }
+        ],
+        "text": "when is the application deadline"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "closing",
+            "entity": "deadline"
+          },
+          {
+            "start": 12,
+            "end": 31,
+            "value": "application closing",
+            "entity": "deadline"
+          }
+        ],
+        "text": "when is the application closing"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "online application",
+            "entity": "online_application"
+          }
+        ],
+        "text": "online application"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 13,
+            "end": 36,
+            "value": "pay for the application",
+            "entity": "application_fee"
+          }
+        ],
+        "text": "do I have to pay for the application"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "application end",
+            "entity": "deadline"
+          }
+        ],
+        "text": "when does the application end"
+      },
+      {
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "payment method",
+            "entity": "application_fee_methods"
+          }
+        ],
+        "text": "payment method of application fee"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok allright please"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct yes yep si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "good with that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "you're goddamn correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes that is"
+      },
+      {
+        "intent": "affirmative",
+        "text": "you got that yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "im ok with this"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok yes sir right affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "si allright correct right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir  correcto"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep correcto affirmative ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correcto allright affirmative yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes to that right affirmative yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yeah it did"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok ok yep yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "allright correcto allright allright"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correcto correct yes sir right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct correct correcto yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "si yes to that yes to that yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right affirmative yes right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes to that ok correcto affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right ok yep right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right affirmative allright"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right right yes to that ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep allright right si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct allright yes affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok ok right ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct correcto yes affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correcto correcto correct yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right correcto yes to that si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right allright affirmative si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep allright affirmative correcto"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right correcto right correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir correct si yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right yes sir yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir ok right correcto"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok right correcto ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir yes to that allright si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct si yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok ok correct si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative correcto allright correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes right correcto"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir correct correcto yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correcto yes to that allright yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative yes yes sir yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative allright yes sir allright"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct right yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative right right yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes to that allright correct yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative yep yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes to that correcto yep allright"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir yes sir right yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir yep yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep yep yep si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct correct right si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes right yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative yep ok affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "si yep correcto ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir correcto correct correcto"
+      },
+      {
+        "intent": "affirmative",
+        "text": "si affirmative yes ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "si right right right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes yes to that si correcto"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct yes yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct correct correcto allright"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes right affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative right correcto ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes correcto correct right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right yes yes sir ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct yes to that yes sir yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes right correct correcto"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right yes to that si yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep si yes sir yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes to that affirmative yes sir yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok right correct correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok affirmative right yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative yes sir affirmative yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct yes right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "allright right correcto correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes yes to that si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right right correct ok"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct yes to that yes yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "allright yep affirmative affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "allright yes sir right si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative yes sir right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct allright yes sir yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right allright ok right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes yep si yes to that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes to that yep right affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "ok right yep si"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir yes affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right correct allright"
+      },
+      {
+        "intent": "affirmative",
+        "text": "si correct allright correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes allright right yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "si si yes to that right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correcto right correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes correct correcto"
+      },
+      {
+        "intent": "negative",
+        "text": "no nope nope"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect its not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "negative not correct please"
+      },
+      {
+        "intent": "negative",
+        "text": "no dont desire that"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct not good for me negative"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir dont agree on that no"
+      },
+      {
+        "intent": "negative",
+        "text": "negative negative"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir incorrect negative"
+      },
+      {
+        "intent": "negative",
+        "text": "negative dont want that no"
+      },
+      {
+        "intent": "negative",
+        "text": "ok its not fine nope"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir not correct no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct that is wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct bad wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "its not correct no"
+      },
+      {
+        "intent": "negative",
+        "text": "negative no sir incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "not good for me not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct its bad"
+      },
+      {
+        "intent": "negative",
+        "text": "nope dont want that no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect wrong not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct incorrect negative"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong please"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir not what i want no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "no not good no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir incorrect no"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "dont want that not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "im not ok with that"
+      },
+      {
+        "intent": "negative",
+        "text": "im not good with that"
+      },
+      {
+        "intent": "negative",
+        "text": "negative no not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "negative that is bad"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir dont want that"
+      },
+      {
+        "intent": "negative",
+        "text": "nope that is bad no"
+      },
+      {
+        "intent": "negative",
+        "text": "nope wrong not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "not what i want not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "its bad no"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong incorrect please"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct not good for me"
+      },
+      {
+        "intent": "negative",
+        "text": "negative not what i want not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct wrong wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir dont mean that wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong dont agree on that"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct bad no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong didnt meant that negative"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect its bad incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "no nope wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "dont mean that wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "negative definitely no no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct ok its not fine nope"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir not what i want negative"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong its not correct no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct its not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "nope incorrect please"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct negative not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "no not good"
+      },
+      {
+        "intent": "negative",
+        "text": "nope that is bad incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect bad no"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct dont desire that negative"
+      },
+      {
+        "intent": "negative",
+        "text": "nope not correct nope"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir dont desire that incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect im not good with that nope"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong nope"
+      },
+      {
+        "intent": "negative",
+        "text": "negative that is wrong no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "negative definitely no nope"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong not good for me negative"
+      },
+      {
+        "intent": "negative",
+        "text": "negative not good for me wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "negative im not ok with that"
+      },
+      {
+        "intent": "negative",
+        "text": "negative incorrect wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct bad not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "no wrong nope"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "nope its not ok negative"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect dont want that not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "negative not good not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct nope no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "negative not correct negative"
+      },
+      {
+        "intent": "negative",
+        "text": "dont desire that wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "no ok its not fine incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "negative not correct nope"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect bad negative"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect dont desire that"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir didnt meant that no"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir wrong incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct no sir incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir not good nope"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir its bad no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect dont mean that incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong not what i want negative"
+      },
+      {
+        "intent": "negative",
+        "text": "no not correct nope"
+      },
+      {
+        "intent": "negative",
+        "text": "nope nope please"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct im not good with that not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir im not good with that no"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect not correct wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "wrong im not ok with that incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "negative im not ok with that no sir"
+      },
+      {
+        "intent": "negative",
+        "text": "no sir dont desire that"
+      },
+      {
+        "intent": "negative",
+        "text": "definitely no"
+      },
+      {
+        "intent": "negative",
+        "text": "not correct incorrect no"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "courses",
+            "entity": "courses"
+          }
+        ],
+        "text": "courses offered at ashesi"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "majors",
+            "entity": "courses"
+          }
+        ],
+        "text": "majors offered"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "programs offered",
+            "entity": "courses"
+          }
+        ],
+        "text": "programs offered at Ahsesi"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "majors",
+            "entity": "courses"
+          }
+        ],
+        "text": "All majors at this school"
+      },
+      {
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "masters program",
+            "entity": "postGraduate"
+          }
+        ],
+        "text": "do you have masters program"
+      },
+      {
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "postgraduate",
+            "entity": "postGraduate"
+          }
+        ],
+        "text": "do you offer any postgraduate majors"
+      },
+      {
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 13,
+            "end": 28,
+            "value": "graduate school",
+            "entity": "postGraduate"
+          }
+        ],
+        "text": "do you offer graduate school"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 35,
+            "value": "computer engineering major",
+            "entity": "Computer_Engineering"
+          }
+        ],
+        "text": "is there computer engineering major "
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 7,
+            "end": 35,
+            "value": "offer mechanical engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ],
+        "text": "do you offer mechanical engineering"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 49,
+            "value": "Electrical and Electronic Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ],
+        "text": "can l study Electrical and Electronic Engineering"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "Computer Science",
+            "entity": "Computer_Science"
+          }
+        ],
+        "text": "Tell me more about Computer Science"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ],
+        "text": "mechanical Engineering"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 8,
+            "end": 38,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          }
+        ],
+        "text": "what is Management Information Systems"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 35,
+            "value": "business adminstration",
+            "entity": "Business_Administration"
+          }
+        ],
+        "text": "do you offer business adminstration degree"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 7,
+            "end": 33,
+            "value": "offer Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ],
+        "text": "Do you offer Computer Engineering"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "CE",
+            "entity": "Computer_Engineering"
+          }
+        ],
+        "text": "Do you offer CE"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 31,
+            "value": "mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ],
+        "text": "is there mechanical Engineering at your school"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "ME",
+            "entity": "Mechanical_Engineering"
+          }
+        ],
+        "text": "ME"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 42,
+            "value": "mechanical Engineering degree",
+            "entity": "Mechanical_Engineering"
+          }
+        ],
+        "text": "do you offer mechanical Engineering degree"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 38,
+            "value": "Electrical Engineering course",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ],
+        "text": "Is there Electrical Engineering course at Ashesi"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "EEE",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ],
+        "text": "EEE"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 57,
+            "value": "Electrical and Electronics Engineering major",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ],
+        "text": "do you offer Electrical and Electronics Engineering major"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "Computer Science major",
+            "entity": "Computer_Science"
+          }
+        ],
+        "text": "Do you have Computer Science major"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "CS",
+            "entity": "Computer_Science"
+          }
+        ],
+        "text": "what is CS"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "MIS",
+            "entity": "Management_of_Information_Systems"
+          }
+        ],
+        "text": "Do you offer MIS"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 32,
+            "value": "Information Systems",
+            "entity": "Management_of_Information_Systems"
+          }
+        ],
+        "text": "Do you offer Information Systems degree"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          }
+        ],
+        "text": "Management Information Systems"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 32,
+            "value": "Business Administration",
+            "entity": "Business_Administration"
+          }
+        ],
+        "text": "Can I do Business Administration major"
+      },
+      {
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "BA",
+            "entity": "Business_Administration"
+          }
+        ],
+        "text": "BA"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "Mr William Annoh",
+            "entity": "staff"
+          }
+        ],
+        "text": "Do you know Mr William Annoh office"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 22,
+            "value": "Ms. Rose Dodd",
+            "entity": "staff"
+          },
+          {
+            "start": 9,
+            "end": 38,
+            "value": "Ms. Rose Dodd office situated",
+            "entity": "offices"
+          }
+        ],
+        "text": "where is Ms. Rose Dodd office situated"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Dr Korsah",
+            "entity": "offices"
+          }
+        ],
+        "text": "get me Dr Korsah"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 27,
+            "end": 45,
+            "value": "Dr Ayorkor Korsahs",
+            "entity": "offices"
+          }
+        ],
+        "text": "I would like to know where Dr Ayorkor Korsahs office is"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Dr Ayawoa",
+            "entity": "offices"
+          }
+        ],
+        "text": "where is Dr Ayawoa office"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Mr Sampah",
+            "entity": "offices"
+          },
+          {
+            "start": 9,
+            "end": 36,
+            "value": "Mr Sampah office positioned",
+            "entity": "offices"
+          }
+        ],
+        "text": "where is Mr Sampah office positioned"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "Mr Anthony",
+            "entity": "offices"
+          },
+          {
+            "start": 17,
+            "end": 34,
+            "value": "Mr Anthony office",
+            "entity": "offices"
+          }
+        ],
+        "text": "where can I find Mr Anthony office"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Mr Joseph Mensah",
+            "entity": "offices"
+          }
+        ],
+        "text": "do you know where Mr Joseph Mensah office is spotted"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 9,
+            "end": 31,
+            "value": "Prof. Pashington Obeng",
+            "entity": "offices"
+          },
+          {
+            "start": 9,
+            "end": 44,
+            "value": "Prof. Pashington Obeng office sited",
+            "entity": "offices"
+          }
+        ],
+        "text": "where is Prof. Pashington Obeng office sited"
+      },
+      {
+        "intent": "offices",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": " Dr. Edgar Cooke",
+            "entity": "offices"
+          },
+          {
+            "start": 18,
+            "end": 53,
+            "value": "Dr. Edgar Cooke office is stationed",
+            "entity": "offices"
+          }
+        ],
+        "text": "do you know where Dr. Edgar Cooke office is stationed"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "how is it going"
+      },
+      {
+        "intent": "greet",
+        "text": "hi are you around"
+      },
+      {
+        "intent": "greet",
+        "text": "good day"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hello whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sup hey"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up good day"
+      },
+      {
+        "intent": "greet",
+        "text": "good night"
+      },
+      {
+        "intent": "greet",
+        "text": "hey hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "morning good day"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good day whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hi hi hey"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings hello"
+      },
+      {
+        "intent": "greet",
+        "text": "are you around? how are things going"
+      },
+      {
+        "intent": "greet",
+        "text": "are you there hey hello"
+      },
+      {
+        "intent": "greet",
+        "text": "good night good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "sup hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good morning hi"
+      },
+      {
+        "intent": "greet",
+        "text": "morning good"
+      },
+      {
+        "intent": "greet",
+        "text": "good night hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up"
+      },
+      {
+        "intent": "bye",
+        "text": "heading out chao adieu bye talk to you later"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "im leaving now"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you soon bye have to go"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "have to go"
+      },
+      {
+        "intent": "bye",
+        "text": "im leaving now got to go"
+      },
+      {
+        "intent": "bye",
+        "text": "got to go"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you soon"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bye talk to you soon"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later bye goodbye leaving"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "bye",
+        "text": "have to go bye bye bye going out"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later goodbye farewell heading out"
+      },
+      {
+        "intent": "bye",
+        "text": "see you later"
+      },
+      {
+        "intent": "bye",
+        "text": "leaving now"
+      },
+      {
+        "intent": "bye",
+        "text": "bye goodbye"
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "scholarships",
+            "entity": "scholarship_type"
+          }
+        ],
+        "text": "Do you have scholarships"
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "type",
+            "entity": "scholarship_type"
+          }
+        ],
+        "text": "type of scholarships "
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "scholarship",
+            "entity": "scholarship_cover"
+          }
+        ],
+        "text": "scholarship vs admissions"
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "value": " scholarship covers",
+            "entity": "scholarship_cover"
+          }
+        ],
+        "text": "What scholarship covers"
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "full scholarships",
+            "entity": "scholarship_cover"
+          }
+        ],
+        "text": "Do you have full scholarships"
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 13,
+            "end": 43,
+            "value": "Scholarship selection criteria",
+            "entity": "scholarship_selection"
+          }
+        ],
+        "text": "What is your scholarship selection criteria"
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "qualifies",
+            "entity": "scholarship_selection"
+          }
+        ],
+        "text": "Who qualifies for scholarship"
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "requirements",
+            "entity": "scholarship_selection"
+          }
+        ],
+        "text": "requirements for scholarship"
+      },
+      {
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "eligible",
+            "entity": "scholarship_selection"
+          }
+        ],
+        "text": "Who is eligible for scholarship"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,316 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "greetings",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "how is it going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi are you around",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good day",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi whats up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "how are you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey whats up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "how are you doing",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello whats up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello sup hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "whats up good day",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good night",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello greetings",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "morning good day",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good day whatsup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi hi hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "greetings hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "are you around? how are things going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "are you there hey hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "sup hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "whats up whatsup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello good morning hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "morning good",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good night ",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "hey are you there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "whats up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heading out chao adieu bye talk to you later",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "im leaving now",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you soon bye have to go",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "have to go",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "im leaving now got to go",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "got to go",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you soon",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bye bye talk to you soon",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later bye goodbye leaving",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "have to go bye bye bye going out",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later goodbye farewell heading out",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "leaving now",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bye goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good night",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howday",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "greetings to you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "whats popping",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "whats good",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good night see you tomorrow",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "see you tomorrow",
+        "intent": "greet",
+        "entities": []
+      }
+    ]
+  }
+}

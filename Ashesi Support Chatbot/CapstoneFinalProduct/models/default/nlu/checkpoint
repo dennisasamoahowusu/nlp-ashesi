@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Primerose\\OneDrive - Ashesi University\\RASAA\\RasaProjectV3\\MyRasa\\models\\default\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Primerose\\OneDrive - Ashesi University\\RASAA\\RasaProjectV3\\MyRasa\\models\\default\\nlu\\intent_classifier_tensorflow_embedding.ckpt"

@@ -1,0 +1,2418 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "What is the mission of the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "mission of Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "What is the vision of the university",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "vision of Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "total population of the students",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "total population",
+            "entity": "population"
+          },
+          {
+            "start": 6,
+            "end": 16,
+            "value": "population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "What is the size of the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "How many alumni",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "alumni",
+            "entity": "population_alumni"
+          }
+        ]
+      },
+      {
+        "text": "How many graduates does Ashesi have?",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "graduates",
+            "entity": "population_alumni"
+          }
+        ]
+      },
+      {
+        "text": "Who founded the university",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "founded",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "Who is Patrick Awuah",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "Patrick Awuah",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "Who is the founder of Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Patrick Awuah",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "President of Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Patrick Awuah",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "Where is the school located",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "located",
+            "entity": "ashesi_location"
+          },
+          {
+            "start": 0,
+            "end": 27,
+            "value": "Where is the school located",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "Location of Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Location",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "How do I get to the university",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 9,
+            "end": 30,
+            "value": "get to the university",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "Directions to Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Directions to Ashesi",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "Google directions to your school",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Google directions",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "university physical address",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "physical address",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "Get me university's postal address",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "postal address",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "Tell me more about the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 29,
+            "value": "more about the school",
+            "entity": "quick_facts"
+          }
+        ]
+      },
+      {
+        "text": "Facts about the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Facts about",
+            "entity": "quick_facts"
+          }
+        ]
+      },
+      {
+        "text": "university facts",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "facts",
+            "entity": "quick_facts"
+          },
+          {
+            "start": 0,
+            "end": 16,
+            "value": "university facts",
+            "entity": "quick_facts"
+          }
+        ]
+      },
+      {
+        "text": "What is the history of the university",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "history",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "the history of the college",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "history",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "brief me the school journey so far",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "school journey",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "What makes the school education unique",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 15,
+            "end": 38,
+            "value": "school education unique",
+            "entity": "liberal_art"
+          }
+        ]
+      },
+      {
+        "text": "liberal art education system",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "liberal art",
+            "entity": "liberal_art"
+          }
+        ]
+      },
+      {
+        "text": "What is a liberal art education",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "liberal art",
+            "entity": "liberal_art"
+          }
+        ]
+      },
+      {
+        "text": "Ethics at Ashesi",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ethics",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "Honour code, what is it?",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Honour code",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "hey what is the honor code about",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "honor code",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "what is the size of an average classroom",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 23,
+            "end": 40,
+            "value": "average classroom",
+            "entity": "class_size"
+          }
+        ]
+      },
+      {
+        "text": "How many people can sit for one lecture at Ashesi",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 8,
+            "end": 39,
+            "value": " people can sit for one lecture",
+            "entity": "class_size"
+          },
+          {
+            "start": 0,
+            "end": 49,
+            "value": "How many people can sit for one lecture at Ashesi",
+            "entity": "class_size"
+          }
+        ]
+      },
+      {
+        "text": "How many students can be in a lecture hall for a lecture",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 8,
+            "end": 56,
+            "value": " students can be in a lecture hall for a lecture",
+            "entity": "class_size"
+          },
+          {
+            "start": 0,
+            "end": 56,
+            "value": "How many students can be in a lecture hall for a lecture",
+            "entity": "class_size"
+          }
+        ]
+      },
+      {
+        "text": "mission",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about Ashesi journey",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "journey",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "what is the schools enrollment",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 30,
+            "value": "schools enrollment",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "how big is the student body?",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "student body",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "quick facts about Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "quick facts",
+            "entity": "quick_facts"
+          }
+        ]
+      },
+      {
+        "text": "what is interesting about Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "interesting about",
+            "entity": "quick_facts"
+          }
+        ]
+      },
+      {
+        "text": "liberal arts School",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "liberal arts",
+            "entity": "liberal_art"
+          }
+        ]
+      },
+      {
+        "text": "Ashesi core values",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "core values",
+            "entity": "core_values"
+          }
+        ]
+      },
+      {
+        "text": "main values of the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "main values of the school",
+            "entity": "core_values"
+          }
+        ]
+      },
+      {
+        "text": "directions to Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "directions",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "mission of the institution",
+        "intent": "mission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "mission of the institution",
+            "entity": "mission"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "university mission",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "university mission",
+            "entity": "mission"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "the schools mission",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 4,
+            "end": 19,
+            "value": "schools mission",
+            "entity": "mission"
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "what is your vision",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "your vision",
+            "entity": "vision"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "vision of the institution",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "vision of the institution",
+            "entity": "vision"
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "schools vision",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "schools vision",
+            "entity": "vision"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "university vision",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "university vision",
+            "entity": "vision"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "What is the vision of the school ",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "what is the total population",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "the sum of the population",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "population",
+            "entity": "population"
+          },
+          {
+            "start": 4,
+            "end": 25,
+            "value": "sum of the population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "how many students are at your institution",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "how many students",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "what is the schools overal population",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "population",
+            "entity": "population"
+          },
+          {
+            "start": 20,
+            "end": 37,
+            "value": "overal population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "population",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "How many graduates are from Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "How many graduates",
+            "entity": "population_alumni"
+          }
+        ]
+      },
+      {
+        "text": "number of Ashesi graduates",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "number of Ashesi graduates",
+            "entity": "population_alumni"
+          }
+        ]
+      },
+      {
+        "text": "Overall population of graduates",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 31,
+            "value": "population of graduates",
+            "entity": "population_alumni"
+          }
+        ]
+      },
+      {
+        "text": "All graduates from university",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "All graduates from university",
+            "entity": "population_alumni"
+          }
+        ]
+      },
+      {
+        "text": "Gross number of graduates",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "Gross number of graduates",
+            "entity": "population_alumni"
+          }
+        ]
+      },
+      {
+        "text": "who started the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "who started the school",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "founder of the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "founder",
+            "entity": "founder"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "founder of the school",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "founder",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "founder",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "beginner of the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "beginner of the school",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi situated",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "situated",
+            "entity": "ashesi_location"
+          },
+          {
+            "start": 0,
+            "end": 24,
+            "value": "where is Ashesi situated",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is the school",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "where is the school",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is the university positioned",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 13,
+            "end": 34,
+            "value": "university positioned",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "Directions to the university",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "Directions to the university",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "where can I find Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "where can I find Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "google map directions to Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "google map directions to Ashesi",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "direction to the school on the hill",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "direction",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "I want google map directions to the school",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 28,
+            "value": "google map directions",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "Help me with instructions to reach Ashesi university",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 13,
+            "end": 41,
+            "value": "instructions to reach Ashesi",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "facts about the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "facts",
+            "entity": "quick_facts"
+          }
+        ]
+      },
+      {
+        "text": "tell me the reality about Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "reality about Ashesi",
+            "entity": "quick_facts"
+          }
+        ]
+      },
+      {
+        "text": "how to get to school",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "how to get to school",
+            "entity": "ashesi_direction"
+          }
+        ]
+      },
+      {
+        "text": "when was the school commenced",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 13,
+            "end": 29,
+            "value": "school commenced",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "When did this school begin",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "When did this school begin",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "When did Ashesi receive Presidential Charter",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "Presidential Charter",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "Brief account about Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Brief account about Ashesi",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "what is honor code",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "honor code",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "class size at this school",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "class size",
+            "entity": "class_size"
+          }
+        ]
+      },
+      {
+        "text": "what is class population",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "class population",
+            "entity": "class_size"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi has big class sizes",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "class sizes",
+            "entity": "class_size"
+          }
+        ]
+      },
+      {
+        "text": "How many students per lecture",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 9,
+            "end": 29,
+            "value": "students per lecture",
+            "entity": "class_size"
+          }
+        ]
+      },
+      {
+        "text": "Are class sizes small",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "class sizes",
+            "entity": "class_size"
+          }
+        ]
+      },
+      {
+        "text": "Does honor code work",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "honor code",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "what is the size of the university",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "size of the university",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "School enrollment",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "enrollment",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "number of students enrolled at the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "number of students enrolled",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "How many students does Ashesi have",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 9,
+            "end": 34,
+            "value": "students does Ashesi have",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "what is your current enrollment",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 13,
+            "end": 31,
+            "value": "current enrollment",
+            "entity": "population"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "enrollment",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "Who is Patrick Awuah",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "Patrick",
+            "entity": "founder"
+          },
+          {
+            "start": 7,
+            "end": 20,
+            "value": "Patrick Awuah",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "Who initiated Ashesi College",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Who initiated Ashesi",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "Who began Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Who began Ashesi",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "who started the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "who started the school",
+            "entity": "founder"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi located",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "where is Ashesi located",
+            "entity": "ashesi_location"
+          },
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "Address of Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Address of Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "school address",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "school address",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "Background of Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Background of Ashesi",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "Tell me more about Ashesi education",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "Ashesi education",
+            "entity": "liberal_art"
+          }
+        ]
+      },
+      {
+        "text": "What is honor code",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "honor code",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "when did honor code commence",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "honor code",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "core values  of the institution",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "core values",
+            "entity": "core_values"
+          }
+        ]
+      },
+      {
+        "text": "pillars of Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "pillars of Ashesi",
+            "entity": "core_values"
+          }
+        ]
+      },
+      {
+        "text": "Graduates from the school",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Graduates",
+            "entity": "population_alumni"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "describe liberal arts system",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 9,
+            "end": 28,
+            "value": "liberal arts system",
+            "entity": "liberal_art"
+          }
+        ]
+      },
+      {
+        "text": "when did the honor code start",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "honor code",
+            "entity": "honour_code"
+          },
+          {
+            "start": 13,
+            "end": 29,
+            "value": "honor code start",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "when did honour code commence",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 9,
+            "end": 29,
+            "value": "honour code commence",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "why honor code",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "honor code",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "Beginning of honor code",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Beginning of honor code",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "when did honor code started",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "honor code started",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "history of honor code",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "history of honor code",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "when did the honor code begin",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 13,
+            "end": 29,
+            "value": "honor code begin",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "history of honor code",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "history of honor code",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "history of honor code",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "history of honor",
+            "entity": "honor_code_began"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "history of honor code",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "brief background about honour code system",
+        "intent": "",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "honour code",
+            "entity": "honour_code"
+          },
+          {
+            "start": 6,
+            "end": 41,
+            "value": "background about honour code system",
+            "entity": "honor_code_began"
+          },
+          {
+            "start": 0,
+            "end": 34,
+            "value": "brief background about honour code",
+            "entity": "honor_code_began"
+          }
+        ]
+      },
+      {
+        "text": "honor code",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "honor code",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "honour code system",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "honour code system",
+            "entity": "honour_code"
+          }
+        ]
+      },
+      {
+        "text": "Ashesi Presidential charter",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "Ashesi Presidential charter",
+            "entity": "history"
+          },
+          {
+            "start": 7,
+            "end": 27,
+            "value": "Presidential charter",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "when did Ashesi win a charter",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "win a charter",
+            "entity": "history"
+          },
+          {
+            "start": 9,
+            "end": 29,
+            "value": "Ashesi win a charter",
+            "entity": "history"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "charter",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "Presidential Charter for Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Presidential Charter",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "meaning of Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "meaning of Ashesi",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "what does Ashesi mean",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "Ashesi mean",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "Meaning of the name Ashesi in Engilish",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Meaning of the name Ashesi",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "meaning of the name of the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "meaning of the name",
+            "entity": "history"
+          },
+          {
+            "start": 0,
+            "end": 33,
+            "value": "meaning of the name of the school",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "how old is Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "how old is Ashesi",
+            "entity": "ashesi_age"
+          }
+        ]
+      },
+      {
+        "text": "how long has been the university operating",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "how long has been the university operating",
+            "entity": "ashesi_age"
+          }
+        ]
+      },
+      {
+        "text": "when did the school start",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "when did the school start",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "In which year did Ashesi commence",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 3,
+            "end": 33,
+            "value": "which year did Ashesi commence",
+            "entity": "history"
+          }
+        ]
+      },
+      {
+        "text": "how old is the school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "how old is the school",
+            "entity": "ashesi_age"
+          },
+          {
+            "start": 4,
+            "end": 21,
+            "value": "old is the school",
+            "entity": "ashesi_age"
+          }
+        ]
+      },
+      {
+        "text": "what is ashesis future aspirations",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 34,
+            "value": "ashesis future aspirations",
+            "entity": "mission"
+          },
+          {
+            "start": 16,
+            "end": 34,
+            "value": "future aspirations",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "future aspirations of Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "future aspirations of Ashesi",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "mission",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi university college",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          },
+          {
+            "start": 0,
+            "end": 26,
+            "value": "where is Ashesi university",
+            "entity": "ashesi_location"
+          },
+          {
+            "start": 0,
+            "end": 34,
+            "value": "where is Ashesi university college",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi please",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "Is Ashesi in Ghana",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Is Ashesi in Ghana",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "what is your vision",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "Ashesi mission",
+        "intent": "mission",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "mission",
+            "entity": "mission"
+          },
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Ashesi mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "What is your vision ",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "your vision",
+            "entity": "vision"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "what is Ashesis vision",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 22,
+            "value": "Ashesis vision",
+            "entity": "vision"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "what is Ashesis mission",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "mission",
+            "entity": "mission"
+          },
+          {
+            "start": 8,
+            "end": 23,
+            "value": "Ashesis mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "where is it",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "where is it",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "Please where is Ashesi",
+        "intent": "",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi madam",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "I want to know where Ashesi is",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "where Ashesi is",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi please",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi university",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "where is Ashesi",
+        "intent": "ashesi_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "where is Ashesi",
+            "entity": "ashesi_location"
+          }
+        ]
+      },
+      {
+        "text": "How many students are there",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "How many students",
+            "entity": "population"
+          },
+          {
+            "start": 0,
+            "end": 27,
+            "value": "How many students are there",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "How many students are at Ashesi",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "How many students",
+            "entity": "population"
+          },
+          {
+            "start": 0,
+            "end": 31,
+            "value": "How many students are at Ashesi",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "number of students there",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "number of students",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "students number",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "students number",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "population of the university",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "What is the population of school",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "schools population",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "population",
+            "entity": "population"
+          },
+          {
+            "start": 0,
+            "end": 18,
+            "value": "schools population",
+            "entity": "population"
+          }
+        ]
+      },
+      {
+        "text": "What is Ashesis vision",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "vision",
+            "entity": "vision"
+          },
+          {
+            "start": 8,
+            "end": 22,
+            "value": "Ashesis vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "What is Ashesi vision",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "Ashesi vision",
+            "entity": "vision"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "vision",
+            "entity": "vision"
+          }
+        ]
+      },
+      {
+        "text": "Ashesi Mission",
+        "intent": "about_ashesi",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "Mission",
+            "entity": "mission"
+          }
+        ]
+      },
+      {
+        "text": "Gymn",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Gymn",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "do you own any sports facility",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "sports facility",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "sports",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "sports",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "I want to play soccer",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "soccer",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi have soccer",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "soccer",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "I want to continue with sports",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "sports",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "I want to join a club at school",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "club",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "clubs to join",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "clubs",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "clubs",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "clubs",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "Are there students owned clubs",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "clubs",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "gym facilities",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "gym",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "I want to gym",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "gym",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "which clubs do you have",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "clubs",
+            "entity": "sports"
+          }
+        ]
+      },
+      {
+        "text": "sport facilities",
+        "intent": "ashesi_education",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "sport facilities",
+            "entity": "sports"
+          }
+        ]
+      }
+    ]
+  }
+}

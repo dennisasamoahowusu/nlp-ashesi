@@ -1,0 +1,1974 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "courses offered at ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "courses",
+            "entity": "courses"
+          },
+          {
+            "start": 0,
+            "end": 15,
+            "value": "courses offered",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "majors offered",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "majors",
+            "entity": "courses"
+          },
+          {
+            "start": 0,
+            "end": 14,
+            "value": "majors offered",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "programs offered at Ahsesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "programs offered",
+            "entity": "courses"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "programs",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "All majors at this school",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "majors",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "do you have masters program",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "masters program",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "do you offer any postgraduate majors",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "postgraduate",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "do you offer graduate school",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 13,
+            "end": 28,
+            "value": "graduate school",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "is there computer engineering major ",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 29,
+            "value": "computer engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "can l study Electrical and Electronic Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 49,
+            "value": "Electrical and Electronic Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 12,
+            "end": 37,
+            "value": "Electrical and Electronic",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Tell me more about Computer Science",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "Computer Science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "mechanical Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "what is Management Information Systems",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 8,
+            "end": 38,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "do you offer business adminstration degree",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 35,
+            "value": "business adminstration",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer Computer Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 7,
+            "end": 33,
+            "value": "offer Computer Engineering",
+            "entity": "Computer_Engineering"
+          },
+          {
+            "start": 13,
+            "end": 33,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer CE",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "CE",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "is there mechanical Engineering at your school",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 31,
+            "value": "mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "ME",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "ME",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "do you offer mechanical Engineering degree",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 42,
+            "value": "mechanical Engineering degree",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is there Electrical Engineering course at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 38,
+            "value": "Electrical Engineering course",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 9,
+            "end": 31,
+            "value": "Electrical Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "EEE",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "EEE",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "do you offer Electrical and Electronics Engineering major",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 57,
+            "value": "Electrical and Electronics Engineering major",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 13,
+            "end": 23,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 28,
+            "end": 39,
+            "value": "Electronics",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 13,
+            "end": 51,
+            "value": "Electrical and Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Do you have Computer Science major",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "Computer Science major",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "what is CS",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "CS",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer MIS",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "MIS",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer Information Systems degree",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 32,
+            "value": "Information Systems",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "Management Information Systems",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "Can I do Business Administration major",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 32,
+            "value": "Business Administration",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "BA",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "BA",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "which programs are available at here",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "programs",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Programs offered at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Programs offered",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Is engineering part of the courses offered at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 3,
+            "end": 42,
+            "value": "engineering part of the courses offered",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "options of majors",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "options of majors",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "what courses can I take at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "value": "courses can I take",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "programs offered here",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "programs offered",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Majors available",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Majors available",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Can I study medicine at this school",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "Can I study medicine at this school",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "what is ME",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "ME",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "which program can I take",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "program",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Which courses are offered at this college",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "courses",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "post graduate courses",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "post graduate",
+            "entity": "postGraduate"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "post graduate courses",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "Can I do my Masters at Ashesi",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Masters",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "Can I apply for postgraduate here",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "postgraduate",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "Masters program at Ashesi",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Masters program",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "Graduate programs offers",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Graduate programs",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "Is it possible to do your graduate program at Ashesi",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 26,
+            "end": 42,
+            "value": "graduate program",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "graduate school at Ashesi",
+        "intent": "masters",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "graduate school",
+            "entity": "postGraduate"
+          }
+        ]
+      },
+      {
+        "text": "Computer Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "majors",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "majors",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "majors",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "majors",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "majors to take at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "majors",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "courses",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "courses",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "courses available at your school",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "courses",
+            "entity": "courses"
+          },
+          {
+            "start": 0,
+            "end": 17,
+            "value": "courses available",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "programs",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "programs",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "major programs",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "major programs",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "courses offered at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "courses offered",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "courses",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "courses",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "what majors are offered here",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "majors",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "what courses are offered there",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "course",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Programs offered to study",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Programs",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Which program can I study at university",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "program",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "I want a list of programs to choose from",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "programs",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "CE major",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CE",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is Computer Engineering available",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 3,
+            "end": 23,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Computer Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "EE major",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "EE",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is EE major available",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "EE major",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "EE",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "I want to study Computer Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 36,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi offer engineering courses",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "engineering ",
+            "entity": "engineering_programs"
+          }
+        ]
+      },
+      {
+        "text": "Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Engineering",
+            "entity": "engineering_programs"
+          }
+        ]
+      },
+      {
+        "text": "I want to be an engineer",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "engineer",
+            "entity": "engineering_programs"
+          }
+        ]
+      },
+      {
+        "text": "Please I want to study engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "engineering",
+            "entity": "engineering_programs"
+          }
+        ]
+      },
+      {
+        "text": "Is engineering there",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "engineering",
+            "entity": "engineering_programs"
+          }
+        ]
+      },
+      {
+        "text": "engineering courses",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "engineering",
+            "entity": "engineering_programs"
+          }
+        ]
+      },
+      {
+        "text": "What kind of engineering is there",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "engineering",
+            "entity": "engineering_programs"
+          }
+        ]
+      },
+      {
+        "text": "what courses are there",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "courses",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi offer engineering courses",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "engineering",
+            "entity": "engineering_programs"
+          }
+        ]
+      },
+      {
+        "text": "programs available",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "programs",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "which programs are there",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "programs ",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the programs available",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "programs",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "please which program is available to choose",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "program",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "which majors do you offer at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "majors",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Business admistration",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Business admistration",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "Do you have Business administration major",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 35,
+            "value": "Business administration",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "I want to study Business Administration",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 39,
+            "value": "Business Administration",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "BA",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "BA",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "what is Business administration about",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 8,
+            "end": 31,
+            "value": "Business administration",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "BA course",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "BA",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer BA",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "BA",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "programs",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "programs",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "Which courses can I apply for",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "courses",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "what courses does Ashesi offer",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "courses",
+            "entity": "courses"
+          }
+        ]
+      },
+      {
+        "text": "Business administration degree",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Business administration",
+            "entity": "Business_Administration"
+          }
+        ]
+      },
+      {
+        "text": "Computer Science",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Computer Science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "I want to study Computer Science",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "Computer Science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "I want to know more about computer science at ashes",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 26,
+            "end": 42,
+            "value": "computer science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "Is there computer science",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "computer science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "computer science degree",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "computer science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "Can l study computer Science",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "computer Science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "Can I study computer science without background in it",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "computer science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "CS",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CS",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "computer scence",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "computer scence",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "I want to learn computer Science",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "computer Science",
+            "entity": "Computer_Science"
+          }
+        ]
+      },
+      {
+        "text": "mechanical Engineering program at Ahsesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          },
+          {
+            "start": 0,
+            "end": 30,
+            "value": "mechanical Engineering program",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer Mechanical Engineering courses",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 43,
+            "value": "Mechanical Engineering courses",
+            "entity": "Mechanical_Engineering"
+          },
+          {
+            "start": 13,
+            "end": 35,
+            "value": "Mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "I want to be a mechanical Engineer",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 15,
+            "end": 34,
+            "value": "mechanical Engineer",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Can I study Mechanical Engineering without background in it",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "Mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is there Mechanical Engineering program at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 31,
+            "value": "Mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          },
+          {
+            "start": 9,
+            "end": 39,
+            "value": "Mechanical Engineering program",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Mechanical Engineering studies at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "Mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "i want to study Mechanical Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 38,
+            "value": "Mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Electrical and Electronic Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "Electrical and Electronic Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 15,
+            "end": 25,
+            "value": "Electronic",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 0,
+            "end": 37,
+            "value": "Electrical and Electronic Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is Electrical and Electronic Engineering available",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 3,
+            "end": 40,
+            "value": "Electrical and Electronic Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Electronic",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 3,
+            "end": 40,
+            "value": "Electrical and Electronic Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is there Mechanical Engineering program here",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 39,
+            "value": "Mechanical Engineering program",
+            "entity": "Mechanical_Engineering"
+          },
+          {
+            "start": 9,
+            "end": 31,
+            "value": "Mechanical Engineering",
+            "entity": "Mechanical_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is there Electrical &  Electronics Engineering program at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 54,
+            "value": "Electrical &  Electronics Engineering program",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Electronics",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 9,
+            "end": 46,
+            "value": "Electrical &  Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 9,
+            "end": 54,
+            "value": "Electrical &  Electronics Engineering program",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Can I study Electrical Electronics Engineering without background in it",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Electronics",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 12,
+            "end": 46,
+            "value": "Electrical Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer Electrical and Electronics Engineering courses",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 28,
+            "end": 39,
+            "value": "Electronics",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 13,
+            "end": 51,
+            "value": "Electrical and Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 13,
+            "end": 59,
+            "value": "Electrical and Electronics Engineering courses",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "I want to study Electrical and Electronics Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 54,
+            "value": "Electrical and Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 31,
+            "end": 42,
+            "value": "Electronics",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Do you have Electrical and Electronics Engineering program",
+        "intent": "",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 27,
+            "end": 38,
+            "value": "Electronics",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 12,
+            "end": 50,
+            "value": "Electrical and Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 12,
+            "end": 58,
+            "value": "Electrical and Electronics Engineering program",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi have Management Information Systems program",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 17,
+            "end": 47,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          },
+          {
+            "start": 17,
+            "end": 46,
+            "value": "Management Information System",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "Can I do Management Information Systems",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 9,
+            "end": 39,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          },
+          {
+            "start": 9,
+            "end": 38,
+            "value": "Management Information System",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "I want to study Management Information Systems",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 46,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          },
+          {
+            "start": 16,
+            "end": 45,
+            "value": "Management Information System",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "Is Management Information Systems offered at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 3,
+            "end": 33,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          },
+          {
+            "start": 3,
+            "end": 32,
+            "value": "Management Information System",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "MIS",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "MIS",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "I want to do MIS",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "MIS",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "what is MIS about",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "MIS",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "Can I study Management Information Systems at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 42,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          },
+          {
+            "start": 12,
+            "end": 41,
+            "value": "Management Information System",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "why Management Information Systems",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 4,
+            "end": 34,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          },
+          {
+            "start": 4,
+            "end": 33,
+            "value": "Management Information System",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "Is Management Information Systems offered at your school",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 3,
+            "end": 33,
+            "value": "Management Information Systems",
+            "entity": "Management_of_Information_Systems"
+          },
+          {
+            "start": 3,
+            "end": 32,
+            "value": "Management Information System",
+            "entity": "Management_of_Information_Systems"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi univerisity has Electrical and Electronics Engineering undergraduate program",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 28,
+            "end": 66,
+            "value": "Electrical and Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 43,
+            "end": 54,
+            "value": "Electronics",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 28,
+            "end": 66,
+            "value": "Electrical and Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Electrical and Electronics Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "Electronics",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Electrical",
+            "entity": "Electrical_Electronic_Engineering"
+          },
+          {
+            "start": 0,
+            "end": 38,
+            "value": "Electrical and Electronics Engineering",
+            "entity": "Electrical_Electronic_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is Computer Engineering available at Ashesi",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 3,
+            "end": 23,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Computer Engineering offered here",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi univerisity has Computer Engineering undergraduate program",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 28,
+            "end": 48,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer Computer Engineering courses",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 13,
+            "end": 33,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "I want to study Computer Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 36,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Tell me more about Computer Engineering",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 19,
+            "end": 39,
+            "value": "Computer Engineering",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Computer Eng",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Computer Eng",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "Computer Eng",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Computer Eng",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "CE",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CE",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      },
+      {
+        "text": "I want to study CE",
+        "intent": "majors",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "CE",
+            "entity": "Computer_Engineering"
+          }
+        ]
+      }
+    ]
+  }
+}

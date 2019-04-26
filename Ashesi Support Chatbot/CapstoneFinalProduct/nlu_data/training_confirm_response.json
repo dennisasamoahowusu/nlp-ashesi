@@ -1,0 +1,1152 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "ok alright please",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct yes yep si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "good with that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "you're goddamn correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes that is",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "you got that yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "im ok with this",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "ok yes sir right affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "si allright correct right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir  correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep correcto affirmative ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correcto allright affirmative yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes to that right affirmative yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yeah it did",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "ok ok yep yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "allright correcto allright allright",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correcto correct yes sir right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct correct correcto yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "si yes to that yes to that yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right affirmative yes right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes to that ok correcto affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right ok yep right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right affirmative allright",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right right yes to that ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep allright right si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct allright yes affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "ok ok right ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct correcto yes affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes yes yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correcto correcto correct yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right correcto yes to that si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right allright affirmative si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep allright affirmative correcto",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right correcto right correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir correct si yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right yes sir yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir ok right correcto",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "ok right correcto ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir yes to that allright si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct si yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "ok ok correct si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative correcto alright correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes right correcto",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir correct correcto yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correcto yes to that allright yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative yes yes sir yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative allright yes sir allright",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct right yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative right right yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes to that allright correct yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative yep yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes to that correcto yep allright",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir yes sir right yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir yep yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep yep yep si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct correct right si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes right yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative yep ok affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "si yep correcto ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir correcto correct correcto",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "si affirmative yes ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "si right right right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes yes to that si correcto",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct yes yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct correct correcto allright",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes right affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative right correcto ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes correcto correct right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right yes yes sir ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct yes to that yes sir yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes right correct correcto",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right yes to that si yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep si yes sir yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes to that affirmative yes sir yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "ok right correct correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "ok affirmative right yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative yes sir affirmative yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct yes right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "allright right correcto correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes yes to that si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right right correct ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct yes to that yes yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "allright yep affirmative affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "allright yes sir right si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative yes sir right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct allright yes sir yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right allright ok right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes yep si yes to that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes to that yep right affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "ok right yep si",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir yes affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right correct allright",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "si correct allright correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes allright right yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "si si yes to that right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correcto right correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes correct correcto",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "no nope nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect its not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative not correct please",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no dont desire that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct not good for me negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir dont agree on that no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir incorrect negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative dont want that no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "ok its not fine nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir not correct no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct that is wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct bad wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "its not correct no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative no sir incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not good for me not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct its bad",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope dont want that no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect wrong not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct incorrect negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong please",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir not what i want no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no not good no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir incorrect no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "dont want that not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "im not ok with that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "im not good with that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative no not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative that is bad",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir dont want that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope that is bad no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope wrong not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not what i want not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "its bad no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong incorrect please",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct not good for me",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative not what i want not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct wrong wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir dont mean that wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong dont agree on that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct bad no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong didnt meant that negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect its bad incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no nope wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "dont mean that wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative definitely no no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct ok its not fine nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir not what i want negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong its not correct no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct its not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope incorrect please",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct negative not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no not good",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope that is bad incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect bad no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct dont desire that negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope not correct nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir dont desire that incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect im not good with that nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative that is wrong no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative definitely no nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong not good for me negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative not good for me wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative im not ok with that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative incorrect wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct bad not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no wrong nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope its not ok negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect dont want that not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative not good not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct nope no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative not correct negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "dont desire that wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no ok its not fine incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative not correct nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect bad negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect dont desire that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir didnt meant that no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir wrong incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct no sir incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir not good nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir its bad no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect dont mean that incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong not what i want negative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no not correct nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope nope please",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct im not good with that not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir im not good with that no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect not correct wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "wrong im not ok with that incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "negative im not ok with that no sir",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no sir dont desire that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "definitely no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not correct incorrect no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "wonderful",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "Brilliant",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "beautiful",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "amazing",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "terrible",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "bad",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "I am afraid you are wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "you tried",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "this is incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not good",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "you can do better",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "thanks",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "thank you",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "thanks for the infor",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "I found this useless",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "useless",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "useful",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "thats true",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "no value",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "thats a lie",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "false",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "true",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "thank you so much",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "wonderful wonderful",
+        "intent": "affirmative",
+        "entities": []
+      }
+    ],
+    "regex_features": []
+  }
+}

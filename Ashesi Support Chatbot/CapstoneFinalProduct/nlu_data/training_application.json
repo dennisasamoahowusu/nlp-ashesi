@@ -1,0 +1,1812 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "what is your application process",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 13,
+            "end": 32,
+            "value": "application process",
+            "entity": "application_process"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "application",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "how to apply to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "apply",
+            "entity": "application_process"
+          },
+          {
+            "start": 0,
+            "end": 22,
+            "value": "how to apply to Ashesi",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "Steps to apply at Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Steps to apply",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "do you have online application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 30,
+            "value": "online application",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "how can I do an online application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": "online application",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "Is there paper application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 9,
+            "end": 26,
+            "value": "paper application",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "Do you have hard copy application papers",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "hard copy",
+            "entity": "paper_application"
+          },
+          {
+            "start": 12,
+            "end": 40,
+            "value": "hard copy application papers",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "How much is application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "application fee",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "Is there a cost for applying",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "cost for applying",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "what are the ways of paying application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "paying",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 13,
+            "end": 43,
+            "value": "ways of paying application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "application fee methods of payments ",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 16,
+            "end": 35,
+            "value": "methods of payments",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "how do I submit my application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "submit",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 9,
+            "end": 35,
+            "value": "submit my application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "how do I submit my finished application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 19,
+            "end": 44,
+            "value": "finished application form",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "submit",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "when is the application closing",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "closing",
+            "entity": "deadline"
+          },
+          {
+            "start": 12,
+            "end": 31,
+            "value": "application closing",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "online application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "online application",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "do I have to pay for the application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 13,
+            "end": 36,
+            "value": "pay for the application",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "when does the application end",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "application end",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "payment method of application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "payment method",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "I want to apply online",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "apply online",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "I want a link to apply for admission ",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 9,
+            "end": 22,
+            "value": "link to apply",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "application process for 2019 admissions",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "application process",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "how can I apply",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "apply",
+            "entity": "application_process"
+          },
+          {
+            "start": 0,
+            "end": 15,
+            "value": "how can I apply",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "I want to apply to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "apply",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "should I apply to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "apply",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "I want to know my application status",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 18,
+            "end": 36,
+            "value": "application status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "how to apply",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "apply",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the status of my application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 19,
+            "end": 43,
+            "value": "status of my application",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "where to apply",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "where to apply",
+            "entity": "application_process"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "apply",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "Application link",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Application link",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "How far with my application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "How far with my application",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "May I know the state of my application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 15,
+            "end": 38,
+            "value": "state of my application",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "state of application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "state of application",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "when can I hear from you",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "when can I hear from you",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "admission status",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "admission status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "I want to know about my admission status",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 24,
+            "end": 40,
+            "value": "admission status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "when should l hear from you",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "when should l hear from you",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "can i apply online",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 6,
+            "end": 18,
+            "value": "apply online",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "how can i apply online",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "apply online",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "would you help me apply online",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "apply online",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "where can l get hard copy of application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 16,
+            "end": 45,
+            "value": "hard copy of application form",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "I want papers to apply",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "papers to apply",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "online apply",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "online apply",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "can i apply here",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "can i apply here",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "applying on a paper",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "applying on a paper",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "paper application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "paper application",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "where can i download the application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 25,
+            "end": 42,
+            "value": "application forms",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "where do l find application forms to download",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 16,
+            "end": 45,
+            "value": "application forms to download",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "download forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "download forms",
+            "entity": "paper_application"
+          }
+        ]
+      },
+      {
+        "text": "Application expenditure",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Application expenditure",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "how much does one application form cost",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 18,
+            "end": 39,
+            "value": "application form cost",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "application fee at Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "application fee",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "foreign students application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "foreign students application fee",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "how can I pay my application costs",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 17,
+            "end": 34,
+            "value": "application costs",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "Ghanaians application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "application fee",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "Ghanaian applicants application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "application fee",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "how be an applicant at Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "applicant",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "How to initiate application at Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "application",
+            "entity": "application_process"
+          },
+          {
+            "start": 0,
+            "end": 27,
+            "value": "How to initiate application",
+            "entity": "application_process"
+          },
+          {
+            "start": 0,
+            "end": 38,
+            "value": "How to initiate application at Ashesi",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "applicant status",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "applicant status",
+            "entity": "status"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "modes of paying application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "modes of paying application fee",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 16,
+            "end": 31,
+            "value": "application fee",
+            "entity": "application_fee"
+          },
+          {
+            "start": 9,
+            "end": 31,
+            "value": "paying application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "Can I use mobile money to pay application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 45,
+            "value": "mobile money to pay application fee",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 10,
+            "end": 22,
+            "value": "mobile money",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "mobile money for application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "mobile money for application fee",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 0,
+            "end": 12,
+            "value": "mobile money",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "I want to pay my application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 32,
+            "value": "pay my application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "payment of application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "payment of application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "can l deposit my application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 6,
+            "end": 32,
+            "value": "deposit my application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "can l deposit  application fee in a bank",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 6,
+            "end": 30,
+            "value": "deposit  application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": " bank and account  number to deposit application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 1,
+            "end": 52,
+            "value": "bank and account  number to deposit application fee",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 1,
+            "end": 25,
+            "value": "bank and account  number",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "Can I pay MTN mobile money for application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "MTN mobile money",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "Can I pay Vodafone mobile money for application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "mobile money",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 19,
+            "end": 51,
+            "value": "mobile money for application fee",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 10,
+            "end": 31,
+            "value": "Vodafone mobile money",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "Can I pay my application fee with airtelTigo mobile money",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 34,
+            "end": 57,
+            "value": "airtelTigo mobile money",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 13,
+            "end": 57,
+            "value": "application fee with airtelTigo mobile money",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 6,
+            "end": 44,
+            "value": "pay my application fee with airtelTigo",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "Can I use bank to pay application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 37,
+            "value": "bank to pay application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "When can l submit my application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "When can l submit my application form",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 11,
+            "end": 37,
+            "value": "submit my application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "submission of application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "submission of application forms",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "forms submission",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "forms submission",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "methods of form submission",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "methods of form submission",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "do you have an applications submission portal",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 15,
+            "end": 45,
+            "value": "applications submission portal",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 28,
+            "end": 45,
+            "value": "submission portal",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "I want to submit my complete application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 45,
+            "value": "submit my complete application form",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 20,
+            "end": 45,
+            "value": "complete application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "submission of complete forms to ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "submission of complete forms to ashesi",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "submission",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 0,
+            "end": 28,
+            "value": "submission of complete forms",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "submission of incomplete forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "submission of incomplete forms",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "Can I submit an incomplete form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 6,
+            "end": 31,
+            "value": "submit an incomplete form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "I want to hand in my application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "I want to hand in my application form",
+            "entity": "application_form_submission"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "hand in",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "How to deliver my application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 7,
+            "end": 34,
+            "value": "deliver my application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "How to deliver my application form to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 7,
+            "end": 34,
+            "value": "deliver my application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "How to hand in my application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 7,
+            "end": 34,
+            "value": "hand in my application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "Who do I email my application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 9,
+            "end": 34,
+            "value": "email my application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "who is the recipient of application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 11,
+            "end": 41,
+            "value": "recipient of application forms",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "Where do I email my application form ",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 11,
+            "end": 36,
+            "value": "email my application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "How can I apply to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "How can I apply",
+            "entity": "application_process"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "apply to",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "How can one apply to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "How can one apply to",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "How can I apply to your school",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "How can I apply to your school",
+            "entity": "application_process"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "apply to",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "What to do to apply to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "apply",
+            "entity": "application_process"
+          },
+          {
+            "start": 14,
+            "end": 29,
+            "value": "apply to Ashesi",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "who do I give my application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "who do I give my application form",
+            "entity": "application_form_submission"
+          }
+        ]
+      },
+      {
+        "text": "How can my son apply to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "apply to Ashesi",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "where do I begin to apply at Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "begin to apply at",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "I want an application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "I want an application form",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "Give me the url for application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 37,
+            "value": "url for application forms",
+            "entity": "online_application"
+          },
+          {
+            "start": 12,
+            "end": 31,
+            "value": "url for application",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "I submitted my application form, when do I hear from you",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 33,
+            "end": 56,
+            "value": "when do I hear from you",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "Give me your account details for payment",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 13,
+            "end": 40,
+            "value": "account details for payment",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "Tell the the account details for payment",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 13,
+            "end": 40,
+            "value": "account details for payment",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "I want your account details for payment of application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 39,
+            "value": "account details for payment",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "I would like to pay my application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "I would like to pay my application fee",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 16,
+            "end": 38,
+            "value": "pay my application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "pay application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "pay application fee",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 4,
+            "end": 19,
+            "value": "application fee",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "I want your bank account details for application fee",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "bank account details",
+            "entity": "application_fee_methods"
+          },
+          {
+            "start": 12,
+            "end": 52,
+            "value": "bank account details for application fee",
+            "entity": "application_fee_methods"
+          }
+        ]
+      },
+      {
+        "text": "what is the cost of a single application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 45,
+            "value": "cost of a single application form",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "what is the cost of an application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 12,
+            "end": 39,
+            "value": "cost of an application form",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "costs of applying",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "costs of applying",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "costs of applying to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "costs of applying to Ashesi",
+            "entity": "application_fee"
+          },
+          {
+            "start": 0,
+            "end": 17,
+            "value": "costs of applying",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "how much is it to apply to Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "how much is it to apply to",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "application costs for Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "application costs for",
+            "entity": "application_fee"
+          },
+          {
+            "start": 0,
+            "end": 17,
+            "value": "application costs",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "where can I get application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "where can I get application forms",
+            "entity": "online_application"
+          },
+          {
+            "start": 16,
+            "end": 33,
+            "value": "application forms",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "how to get application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "how to get application forms",
+            "entity": "online_application"
+          },
+          {
+            "start": 7,
+            "end": 28,
+            "value": "get application forms",
+            "entity": "online_application"
+          },
+          {
+            "start": 11,
+            "end": 28,
+            "value": "application forms",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "find application forms for me ",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "find application forms",
+            "entity": "online_application"
+          },
+          {
+            "start": 5,
+            "end": 22,
+            "value": "application forms",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "Please get an application url for me",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "application url",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "url for application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "url for application forms",
+            "entity": "online_application"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "url",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "Link to application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "Link to application forms",
+            "entity": "online_application"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "application",
+            "entity": "application_process"
+          },
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Link to application",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "whats the process for applying",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 30,
+            "value": "process for applying",
+            "entity": "application_process"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "apply",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "applying process at Ashesi",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "applying process",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "application",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "application forms",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "i want to apply",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 2,
+            "end": 15,
+            "value": "want to apply",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "tell me about application",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "application",
+            "entity": "application_process"
+          }
+        ]
+      },
+      {
+        "text": "application form for admissions",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "application",
+            "entity": "application_process"
+          },
+          {
+            "start": 0,
+            "end": 16,
+            "value": "application form",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "admissions application forms",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "application forms",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "application form",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "application",
+            "entity": "application_process"
+          },
+          {
+            "start": 0,
+            "end": 16,
+            "value": "application form",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "how do I get the application form for admissions",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": "application form",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "how do I get the application for admissions",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "application",
+            "entity": "application_process"
+          },
+          {
+            "start": 9,
+            "end": 43,
+            "value": "get the application for admissions",
+            "entity": "online_application"
+          }
+        ]
+      },
+      {
+        "text": "application fees",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "application fees",
+            "entity": "application_fee"
+          }
+        ]
+      },
+      {
+        "text": "admission application fees",
+        "intent": "application",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "application fees",
+            "entity": "application_fee"
+          }
+        ]
+      }
+    ]
+  }
+}

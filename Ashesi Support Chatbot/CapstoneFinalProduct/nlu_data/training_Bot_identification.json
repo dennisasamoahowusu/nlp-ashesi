@@ -1,0 +1,66 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "who are you",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "who developed you",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "where do you come from",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "what do you know about Ashesi",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "what is your purpose ",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "Are you a robot",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "Are you a smart bot",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "are you smart",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "when were you created",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "why were you created",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "Do you think",
+        "intent": "who",
+        "entities": []
+      },
+      {
+        "text": "how did you know",
+        "intent": "who",
+        "entities": []
+      }
+    ]
+  }
+}

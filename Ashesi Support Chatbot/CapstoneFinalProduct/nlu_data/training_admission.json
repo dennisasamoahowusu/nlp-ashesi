@@ -1,0 +1,2730 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "what is Ashesi looking for in students they admit",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "looking for",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "when does the application end",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "application end",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "what is your selection criteria",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 31,
+            "value": "selection criteria",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "how is admission process like",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "admission process",
+            "entity": "selection_criteria"
+          },
+          {
+            "start": 7,
+            "end": 16,
+            "value": "admission",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "what does it take to be accepted ",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "accepted",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "acceptance process at Ashesi University",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "acceptance process",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "how can I be admitted",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "admitted",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "Engineering Students admissions requirements ",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "Engineering Students admissions requirements",
+            "entity": "academic_qualifications_engineering"
+          },
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Engineering Students",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "does Ashesi accept transfer students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "transfer students",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "transfer",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "how do I contact admissions ",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "contact",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 9,
+            "end": 27,
+            "value": "contact admissions",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "get me your  contact details",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 28,
+            "value": "contact details",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "value": "contact",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "does personality matter when applying",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "personality",
+            "entity": "personality"
+          }
+        ]
+      },
+      {
+        "text": "why does personality matter to be admitted",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "personality",
+            "entity": "personality"
+          }
+        ]
+      },
+      {
+        "text": "when does application starts",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "application starts",
+            "entity": "admission_open"
+          }
+        ]
+      },
+      {
+        "text": "Is application window open",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "open",
+            "entity": "admission_open"
+          },
+          {
+            "start": 3,
+            "end": 26,
+            "value": "application window open",
+            "entity": "admission_open"
+          }
+        ]
+      },
+      {
+        "text": "when does application to Ashesi closes",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 32,
+            "end": 38,
+            "value": "closes",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "when does the admission ends",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "ends",
+            "entity": "deadline"
+          },
+          {
+            "start": 14,
+            "end": 28,
+            "value": "admission ends",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic requirements for international students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 39,
+            "end": 61,
+            "value": "international students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic requirements for non Ghanaian students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 39,
+            "end": 60,
+            "value": "non Ghanaian students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "What are the academic qualifications needed for engineering students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 48,
+            "end": 68,
+            "value": "engineering students",
+            "entity": "academic_qualifications_engineering"
+          },
+          {
+            "start": 13,
+            "end": 68,
+            "value": "academic qualifications needed for engineering students",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "what are the basic requirements for admission",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 31,
+            "value": "basic requirements",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "Academic needs to be an Engineering student",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 24,
+            "end": 43,
+            "value": " engineering student",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "What prerequisite do I need to be an engineering student",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 37,
+            "end": 56,
+            "value": " engineering student",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi accept transfer students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "transfer students",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "Can I transfer from another school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "transfer",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "does the tuition fee cover text books",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "text books",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "What about text books at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "text books",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "admissions contact",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "admissions contact",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "what can I do to be admitted at your university",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "admitted",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "how can I make a successful entrance to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "entrance",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "admission",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "admission",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "admit me at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "admit",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "Do we buy textbooks",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 19,
+            "value": "buy textbooks",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "Do we buy textbooks",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "textbooks",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "what about reading material",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "reading material",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "when does application finish",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 10,
+            "end": 28,
+            "value": "application finish",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "how can I be admitted",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "admitted",
+            "entity": "selection_criteria"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "how can I be admitted",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "I want to know how I can be part of Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "how I can be part of Ashesi",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "How can I be part of this school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "How can I be part of this school",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "How can I be part of this institution",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "How can I be part of this institution",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "How can I be part of this Ashesi college",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 40,
+            "value": "How can I be part of this Ashesi college",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "what should I have to be part of Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "what should I have to be part of",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "what should I have to be part of Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "what should I have to be part of",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "what should I have to be part of this school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "what should I have to be part of",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "I want to be part of Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "I want to be part of Ashesi",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "Can I be selected to be an Ashesi student",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 41,
+            "value": "selected to be an Ashesi student",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "Can I please have Ashesi contact",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 18,
+            "end": 32,
+            "value": "Ashesi contact",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "contact",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "How can I contact the admission team",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 10,
+            "end": 36,
+            "value": "contact the admission team",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "I want admission contact",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "admission contact",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "Please can I get admission email and  admission phone number",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 38,
+            "end": 60,
+            "value": "admission phone number",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 17,
+            "end": 32,
+            "value": "admission email",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "email",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 48,
+            "end": 60,
+            "value": "phone number",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "How can I get in touch with the admission team",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 10,
+            "end": 46,
+            "value": "get in touch with the admission team",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "Admission phone number",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "Admission phone number",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 10,
+            "end": 22,
+            "value": "phone number",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "I want to talk to the admission team",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "admission team",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "contact Ashesi admission",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "contact Ashesi admission",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "contact",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "phone number for Ashesi admission department",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "phone number",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "contact administration team",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "contact administration",
+            "entity": "contact_admin"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "contact",
+            "entity": "contact_admin"
+          }
+        ]
+      },
+      {
+        "text": "requirements for engineering students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "requirements for engineering students",
+            "entity": "academic_qualifications_engineering"
+          },
+          {
+            "start": 17,
+            "end": 37,
+            "value": "engineering students",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "academic cut off point for engineering students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 47,
+            "value": "academic cut off point for engineering students",
+            "entity": "academic_qualifications_engineering"
+          },
+          {
+            "start": 27,
+            "end": 47,
+            "value": "engineering students",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "Basic requirements for engineering courses",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "engineering",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "academic requirements to study engineering at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "academic requirements to study engineering",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "engineering requirements",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "engineering requirements",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "academic requirements to pursue engineering",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "academic requirements",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "I want to transfer to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "I want to transfer",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 9,
+            "end": 18,
+            "value": " transfer",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "How to become an engineering student at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 7,
+            "end": 36,
+            "value": "become an engineering student",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "Is it possible to move from my school to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 18,
+            "end": 47,
+            "value": "move from my school to Ashesi",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "Can one move from one university to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 8,
+            "end": 35,
+            "value": "move from one university to",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "Is transfer acceptable at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "transfer",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "I want to transfer from my college to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 10,
+            "end": 34,
+            "value": "transfer from my college",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 10,
+            "end": 23,
+            "value": "transfer from",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "I would like to transfer to your school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "transfer to",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "Can my daughter transfer to your institution",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "transfer to",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "Can one move from one school to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 8,
+            "end": 31,
+            "value": "move from one school to",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "transfer students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "transfer students",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "transfer",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "Can I be admitted to Ashesi by transfer letter ",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 31,
+            "end": 46,
+            "value": "transfer letter",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "Transfer letter to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Transfer letter to",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Transfer letter",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Transfer",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "I want my son to transfer from my college to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "to transfer from",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "transfer",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "Does ones character matter when applying to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 5,
+            "end": 40,
+            "value": "ones character matter when applying",
+            "entity": "personality"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "character",
+            "entity": "personality"
+          }
+        ]
+      },
+      {
+        "text": "Does ones identity matter when applying at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "identity",
+            "entity": "personality"
+          },
+          {
+            "start": 5,
+            "end": 42,
+            "value": "ones identity matter when applying at",
+            "entity": "personality"
+          }
+        ]
+      },
+      {
+        "text": "persons charisma matter to be considered for admission",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "persons charisma matter",
+            "entity": "personality"
+          }
+        ]
+      },
+      {
+        "text": "Why does Ashesi care about ones charisma",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "charisma",
+            "entity": "personality"
+          }
+        ]
+      },
+      {
+        "text": "What is a good personality for one to be considered as an Ashesi student",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "personality",
+            "entity": "personality"
+          }
+        ]
+      },
+      {
+        "text": "is admission window open",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 3,
+            "end": 24,
+            "value": "admission window open",
+            "entity": "admission_open"
+          }
+        ]
+      },
+      {
+        "text": "when can I start my application",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "when can I start my application",
+            "entity": "admission_open"
+          }
+        ]
+      },
+      {
+        "text": "is admission open",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "admission open",
+            "entity": "admission_open"
+          }
+        ]
+      },
+      {
+        "text": "How long is the admission period",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "admission period",
+            "entity": "admission_open"
+          }
+        ]
+      },
+      {
+        "text": "Can I apply now",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "apply",
+            "entity": "admission_open"
+          }
+        ]
+      },
+      {
+        "text": "how to make a successful application to your school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 14,
+            "end": 36,
+            "value": "successful application",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "Do we buy our own reading materials",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 14,
+            "end": 35,
+            "value": "own reading materials",
+            "entity": "text_books"
+          },
+          {
+            "start": 18,
+            "end": 35,
+            "value": "reading materials",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "Does the school provide reading materials",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 41,
+            "value": "school provide reading materials",
+            "entity": "text_books"
+          },
+          {
+            "start": 24,
+            "end": 41,
+            "value": "reading materials",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "Does tuition includes textbooks",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 5,
+            "end": 31,
+            "value": "tuition includes textbooks",
+            "entity": "text_books"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "textbooks",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "Does school fees includes textbooks",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 5,
+            "end": 35,
+            "value": "school fees includes text books",
+            "entity": "text_books"
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "textbooks",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "Who buys the text books",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 4,
+            "end": 23,
+            "value": "buys the text books",
+            "entity": "text_books"
+          },
+          {
+            "start": 13,
+            "end": 23,
+            "value": "text books",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "buys the textbooks",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "textbooks",
+            "entity": "text_books"
+          },
+          {
+            "start": 9,
+            "end": 18,
+            "value": "textbooks",
+            "entity": "text_books"
+          }
+        ]
+      },
+      {
+        "text": "when is last day of applying to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 8,
+            "end": 28,
+            "value": "last day of applying",
+            "entity": "deadline"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "last day",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "when is the deadline",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "deadline",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "admission closed",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "admission closed",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "when does admission closes",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "admission closes",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "when does the admission window closes",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 14,
+            "end": 37,
+            "value": "admission window closes",
+            "entity": "deadline"
+          },
+          {
+            "start": 14,
+            "end": 30,
+            "value": "admission window",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "what is the deadline for late submission",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "deadline",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "what is the deadline for early application submission ",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "deadline",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "2019 admission deadline",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "value": "admission deadline",
+            "entity": "deadline"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "deadline",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "extra academic requirements for non Ghanaian",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 44,
+            "value": "academic requirements for non Ghanaian",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "foreign students academic requirements",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "foreign students academic requirements",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "What are the academic requirements of non-Ghanaian",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 50,
+            "value": "academic requirements of non-Ghanaian",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "international students academic requirements",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "international students academic requirements",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "What are the academic requirements of foreign students at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 54,
+            "value": "academic requirements of foreign students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "What are the academic requirements for international students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 61,
+            "value": "academic requirements for international students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "what is the admission selection criteria",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 22,
+            "end": 40,
+            "value": "selection criteria",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "I want to be admitted madam",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "admitted",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "what is the admission selection benchmark",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 22,
+            "end": 41,
+            "value": "selection benchmark",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "what is the admission selection yardstick",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 22,
+            "end": 41,
+            "value": "selection yardstick",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic documents required for international students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 67,
+            "value": "academic documents required for international students",
+            "entity": "academic_qualification_nonGhanaian"
+          },
+          {
+            "start": 22,
+            "end": 67,
+            "value": "documents required for international students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic documents required for foreign students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 61,
+            "value": "academic documents required for foreign students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic documents needed from non Ghanaians",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 57,
+            "value": "academic documents needed from non Ghanaians",
+            "entity": "academic_qualification_nonGhanaian"
+          },
+          {
+            "start": 22,
+            "end": 57,
+            "value": "documents needed from non Ghanaians",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic documents needed from foreign students",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 60,
+            "value": "academic documents needed from foreign students",
+            "entity": "academic_qualification_nonGhanaian"
+          },
+          {
+            "start": 22,
+            "end": 60,
+            "value": "documents needed from foreign students",
+            "entity": "academic_qualification_nonGhanaian"
+          }
+        ]
+      },
+      {
+        "text": "academic qualifications",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "academic qualifications",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic qualifications",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "what are the academic qualifications",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 13,
+            "end": 36,
+            "value": "academic qualifications",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic accomplishments to be admitted here",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 37,
+            "value": "academic accomplishments",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "what are the education accomplishments to be admitted here",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 38,
+            "value": "education accomplishments",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "Academic qualifications required ",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "Academic qualifications required",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Academic qualifications",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "Ashesi academic cut off point",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 7,
+            "end": 29,
+            "value": "academic cut off point",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 16,
+            "end": 29,
+            "value": "cut off point",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "what is the academic cut off point for Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "value": "cut off point",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 12,
+            "end": 34,
+            "value": "academic cut off point",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "What are the cut off points",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "cut off points",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "Can I take transfer from a university to Ashesi. If yes will I start over",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 24,
+            "value": "take transfer from",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "transfer",
+            "entity": "transfer_students"
+          },
+          {
+            "start": 11,
+            "end": 37,
+            "value": "transfer from a university",
+            "entity": "transfer_students"
+          }
+        ]
+      },
+      {
+        "text": "academic requirements to study at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "academic requirements",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "what are the academic records required to apply at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 47,
+            "value": "academic records required to apply",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "academic qualification to apply to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "academic qualification",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "How big is the school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 4,
+            "end": 21,
+            "value": "big is the school",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "how many acres is Ashesi ",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "how many acres",
+            "entity": "Ashesi_land"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "acres",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "How many hectares is the institution",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hectares",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "Land size of the school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Land size",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "How big is your land",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "How big is your land",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "The size of Ashesi land",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 4,
+            "end": 23,
+            "value": "size of Ashesi land",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "Acres of the college",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Acres",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "land size of the univesirty",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "land size",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "Area of Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Area of Ashesi",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "when did Ashesi commence",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "Ashesi commence",
+            "entity": "commencement"
+          }
+        ]
+      },
+      {
+        "text": "Which year did Ashesi began",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "Which year did Ashesi began",
+            "entity": "commencement"
+          },
+          {
+            "start": 5,
+            "end": 10,
+            "value": " year",
+            "entity": "commencement"
+          }
+        ]
+      },
+      {
+        "text": "when and where did this school start",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "when and where did this school start",
+            "entity": "commencement"
+          },
+          {
+            "start": 9,
+            "end": 36,
+            "value": "where did this school start",
+            "entity": "commencement"
+          }
+        ]
+      },
+      {
+        "text": "Beginnings of the school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "Beginnings of the school",
+            "entity": "commencement"
+          }
+        ]
+      },
+      {
+        "text": "When did the school start",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 25,
+            "value": "school start",
+            "entity": "commencement"
+          }
+        ]
+      },
+      {
+        "text": "when was Ashesi founded",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 23,
+            "value": "Ashesi founded",
+            "entity": "commencement"
+          }
+        ]
+      },
+      {
+        "text": "most represented countries",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "most represented countries",
+            "entity": "most_represented_countries"
+          }
+        ]
+      },
+      {
+        "text": "countries that are most represented at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 45,
+            "value": "countries that are most represented at Ashesi",
+            "entity": "most_represented_countries"
+          }
+        ]
+      },
+      {
+        "text": "Countries with large population on campus",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "Countries with large population",
+            "entity": "most_represented_countries"
+          }
+        ]
+      },
+      {
+        "text": "Nations with bigger population at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Nations with bigger population",
+            "entity": "most_represented_countries"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Nations",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "Countries with larger number of people",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "Countries with larger number of people",
+            "entity": "most_represented_countries"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Countries",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "Dominating countries on the institution",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Dominating countries",
+            "entity": "most_represented_countries"
+          }
+        ]
+      },
+      {
+        "text": "Nations with many people at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "Nations with many people",
+            "entity": "most_represented_countries"
+          }
+        ]
+      },
+      {
+        "text": "Ashesi leadership team",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "leadership team",
+            "entity": "leadership_teams"
+          }
+        ]
+      },
+      {
+        "text": "Structure of Ashesi leadership ",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Structure of Ashesi leadership",
+            "entity": "leadership_teams"
+          }
+        ]
+      },
+      {
+        "text": "Number of the leadership team",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "Number of the leadership",
+            "entity": "leadership_teams"
+          },
+          {
+            "start": 14,
+            "end": 29,
+            "value": "leadership team",
+            "entity": "leadership_teams"
+          }
+        ]
+      },
+      {
+        "text": "leaders at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "leaders at Ashesi",
+            "entity": "leadership_teams"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "leaders",
+            "entity": "leadership_teams"
+          }
+        ]
+      },
+      {
+        "text": "timeline for application",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "timeline",
+            "entity": "deadline"
+          },
+          {
+            "start": 0,
+            "end": 24,
+            "value": "timeline for application",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "last day of application",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "last day",
+            "entity": "deadline"
+          },
+          {
+            "start": 0,
+            "end": 23,
+            "value": "last day of application",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "tell me the timeline for application",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "timeline",
+            "entity": "deadline"
+          },
+          {
+            "start": 12,
+            "end": 36,
+            "value": "timeline for application",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "when is the last day of applications",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 12,
+            "end": 36,
+            "value": "last day of applications",
+            "entity": "deadline"
+          },
+          {
+            "start": 12,
+            "end": 20,
+            "value": "last day",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "due date of application",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "due date",
+            "entity": "deadline"
+          },
+          {
+            "start": 0,
+            "end": 23,
+            "value": "due date of application",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "due date for applying to Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "due date",
+            "entity": "deadline"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "due date for applying",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "applications submission timeline",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "timeline",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "what are the necessary documents required for admission",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 23,
+            "end": 55,
+            "value": "documents required for admission",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "documents",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "what are the necessary documents required for admission at Ashesi university college",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "documents",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 23,
+            "end": 55,
+            "value": "documents required for admission",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "which necessary documents required for admission",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 15,
+            "end": 48,
+            "value": " documents required for admission",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 16,
+            "end": 34,
+            "value": "documents required",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 16,
+            "end": 25,
+            "value": "documents",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "which country has many people at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 29,
+            "value": "country has many people",
+            "entity": "most_represented_countries"
+          },
+          {
+            "start": 6,
+            "end": 13,
+            "value": "country",
+            "entity": "most_represented_countries"
+          }
+        ]
+      },
+      {
+        "text": "how many countries are represented at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "countries",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "countries at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "countries",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "gender ratio at Ashesi university college",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "gender ratio",
+            "entity": "enrollment"
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "gender",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "gender balance at your school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "gender balance",
+            "entity": "enrollment"
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "gender",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "which academic certificates should I produce",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 27,
+            "value": "academic certificates",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "do you require my academic records from high school",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "academic records",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "Are my transcripts needed",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "transcripts",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "Do you require my secondary school transcripts",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 18,
+            "end": 46,
+            "value": "secondary school transcripts",
+            "entity": "academic_qualification"
+          },
+          {
+            "start": 35,
+            "end": 46,
+            "value": "transcripts",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "transcripts",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "transcripts",
+            "entity": "academic_qualification"
+          }
+        ]
+      },
+      {
+        "text": "gender statistics at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "gender statistics",
+            "entity": "enrollment"
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "gender",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "which gender is dominating at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "gender",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "what should I have to be considered at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "be considered at",
+            "entity": "selection_criteria"
+          }
+        ]
+      },
+      {
+        "text": "end of application period",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "end of application",
+            "entity": "deadline"
+          }
+        ]
+      },
+      {
+        "text": "engineering requirements",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "engineering requirements",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "engineering academic documents required",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "engineering academic documents required",
+            "entity": "academic_qualifications_engineering"
+          },
+          {
+            "start": 0,
+            "end": 30,
+            "value": "engineering academic documents",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "academic documents required to be an engineering student",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 56,
+            "value": "documents required to be an engineering student",
+            "entity": "academic_qualifications_engineering"
+          },
+          {
+            "start": 37,
+            "end": 56,
+            "value": "engineering student",
+            "entity": "academic_qualifications_engineering"
+          }
+        ]
+      },
+      {
+        "text": "how big is Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "how big is Ashesi",
+            "entity": "Ashesi_land"
+          }
+        ]
+      },
+      {
+        "text": "How many countries are represented at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 9,
+            "end": 34,
+            "value": "countries are represented",
+            "entity": "enrollment"
+          },
+          {
+            "start": 9,
+            "end": 18,
+            "value": "countries",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "countries represented at university",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "countries represented",
+            "entity": "enrollment"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "countries",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "ratio of men to women at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "ratio of men to women",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "ratio of women to men",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "ratio of women to men",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "total enrollment at Ashesi university college",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "value": "enrollment",
+            "entity": "enrollment"
+          },
+          {
+            "start": 0,
+            "end": 16,
+            "value": "total enrollment",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "how many students are enrolled there",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "enrolled",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "what is the number of pupils enrolled at Ashesi",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "enrolled",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "what is your total enrollment",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 29,
+            "value": "total enrollment",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "size of your enrollment",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "enrollment",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "what is the number of students enrolled there",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "enrolled",
+            "entity": "enrollment"
+          }
+        ]
+      },
+      {
+        "text": "What are your gender statistics",
+        "intent": "admission",
+        "entities": [
+          {
+            "start": 14,
+            "end": 31,
+            "value": "gender statistics",
+            "entity": "enrollment"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "gender",
+            "entity": "enrollment"
+          }
+        ]
+      }
+    ]
+  }
+}

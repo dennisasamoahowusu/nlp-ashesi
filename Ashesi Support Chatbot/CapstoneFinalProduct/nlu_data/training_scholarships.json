@@ -1,0 +1,336 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Do you have scholarships",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "scholarships",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "type of scholarships ",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "type",
+            "entity": "scholarship_cover"
+          },
+          {
+            "start": 0,
+            "end": 20,
+            "value": "type of scholarships",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "scholarship vs admissions",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "scholarship",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "What scholarship covers",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "value": " scholarship covers",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "Do you have full scholarships",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "full scholarships",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "What is your scholarship selection criteria",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 13,
+            "end": 43,
+            "value": "Scholarship selection criteria",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "Who qualifies for scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 4,
+            "end": 29,
+            "value": "qualifies for scholarship",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "requirements for scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "requirements for scholarship",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "Who is eligible for scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "eligible",
+            "entity": "scholarship_selection"
+          },
+          {
+            "start": 7,
+            "end": 31,
+            "value": "eligible for scholarship",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "Do you offer sports based merit scholarships",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 13,
+            "end": 44,
+            "value": "sports based merit scholarships",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "How can I get a scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 10,
+            "end": 27,
+            "value": "get a scholarship",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "Is scholarship based on sports merit",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 3,
+            "end": 36,
+            "value": "scholarship based on sports merit",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "does full scholarship covers housing",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 5,
+            "end": 21,
+            "value": "full scholarship",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "does the scholarship covers food, housing and tuition",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 9,
+            "end": 53,
+            "value": "scholarship covers food, housing and tuition",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "How to apply for scholarships at Ashesi",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "How to apply for scholarships at Ashesi",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "I want a full scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "full scholarship",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "Do I qualify for scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 5,
+            "end": 28,
+            "value": "qualify for scholarship",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "I want a full scholarship to Ashesi",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "scholarship",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "does the scholarship includes food housing and tuition",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 9,
+            "end": 54,
+            "value": "scholarship includes food housing and tuition",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "How to qualify for a scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 7,
+            "end": 32,
+            "value": "qualify for a scholarship",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "scholarship requirements",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "scholarship requirements",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "Scholarship terms and conditions",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "Scholarship terms and conditions",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "scholarship qualifications",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "scholarship qualifications",
+            "entity": "scholarship_selection"
+          }
+        ]
+      },
+      {
+        "text": "partial scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "partial scholarship",
+            "entity": "scholarship_cover"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "scholarship",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "Is there partial or full scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 9,
+            "end": 36,
+            "value": "partial or full scholarship",
+            "entity": "scholarship_cover"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi offer scholarship",
+        "intent": "scholarships",
+        "entities": [
+          {
+            "start": 5,
+            "end": 29,
+            "value": "Ashesi offer scholarship",
+            "entity": "scholarship_cover"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2208 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "how much is tuition fee at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "how much is tuition fee at Ashesi",
+            "entity": "tuition"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "tuition fee",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "Exchange students tuition fee",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "tuition fee",
+            "entity": "tuition_exchange_student"
+          },
+          {
+            "start": 0,
+            "end": 29,
+            "value": "Exchange students tuition fee",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "How much does exchange students pay for tuition?",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 14,
+            "end": 47,
+            "value": "exchange students pay for tuition",
+            "entity": "tuition_exchange_student"
+          },
+          {
+            "start": 0,
+            "end": 47,
+            "value": "How much does exchange students pay for tuition",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "Exchange students school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "school fees",
+            "entity": "tuition_exchange_student"
+          },
+          {
+            "start": 0,
+            "end": 29,
+            "value": "Exchange students school fees",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "How much is school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "school fee",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "does Ashesi offer installment plans for school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "installment plans",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi offer installment plans when paying tuition",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "installment",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Do you have to pay the tuition in installments ",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 34,
+            "end": 46,
+            "value": "installments",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Study abroad at Ashesi school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Study abroad",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "Paying Fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Paying Fees",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "what is the fees structure",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 26,
+            "value": "fees structure",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "what is the cost of Ashesi tuition",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "Ashesi tuition",
+            "entity": "tuition"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "cost",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "how much is the charge for Ashesi tuition",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "charge",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "how much is  the tuition fee for Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "fee",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "what is the expenditure for learning at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "expenditure",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "how much is the learning cost at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "learning cost",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "Is there any paying tuition breakdown for those who cannot afford to pay tuition once",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 37,
+            "value": "tuition breakdown",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "how much is the educational cost at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "educational cost",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "can I pay in monthly installments ",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 13,
+            "end": 33,
+            "value": "monthly installments",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Is there a chance to pay my fees in partial payments",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 36,
+            "end": 52,
+            "value": "partial payments",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "ways to pay tuition?",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "ways to pay tuition",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "payment methods of tuition at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "payment methods",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "which bank can I deposit my school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "deposit",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "What is the mode of school fees payment",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 39,
+            "value": "mode of school fees payment",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "I want to ask if hostel fees and feeding is also part of the fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 17,
+            "end": 40,
+            "value": "hostel fees and feeding",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the School fees structure",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 19,
+            "end": 40,
+            "value": "School fees structure",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is tuition",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "How much is tuition",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is school fees at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "How much is school fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How many dollars do I need to pay school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "How many dollars",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 45,
+            "value": "How many dollars do I need to pay school fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "total fees for one academic year",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "total fees for one academic year",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "total fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is tuition for one academic year",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "tuition",
+            "entity": "tuition"
+          },
+          {
+            "start": 12,
+            "end": 41,
+            "value": "tuition for one academic year",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "school fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "tuition fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "tuition fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "how much is tuition at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "how much is tuition",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is school fees at this institution",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "How much is school fees",
+            "entity": "tuition"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "school fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "school fees how much is it",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "school fees how much",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "tuition fee, how much is it",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "tuition fee",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "tuition fee, how much",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "how much is the learning fee",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "learning fee",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "academic costs at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "academic costs",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is the learning costs at this institution",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 30,
+            "value": "learning costs",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is academic cost at Ashesi college",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "academic cost",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "What is the cost of studying at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "cost of studying",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "what is the learning cost of studying at ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "learning cost",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the cost of studying at this school",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "cost of studying",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "May I please know the total fees for one academic year",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "total fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "academic costs",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "academic costs",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is the cost of one semester abroad at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 43,
+            "value": "cost of one semester abroad",
+            "entity": "tuition_exchange_student"
+          },
+          {
+            "start": 28,
+            "end": 43,
+            "value": "semester abroad",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "How much is it to be an exchange student at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 40,
+            "value": "How much is it to be an exchange student",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "Exchange student tuition fee",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "tuition fee",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "How much is the exchange student cost of of studying",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 52,
+            "value": "exchange student cost of of studying",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "Exchange program at Ashesi college",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Exchange program",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "How much is the exchange student program to Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 40,
+            "value": "exchange student program",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "school fees for exchange student",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "school fees for exchange student",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "tuition fee for an exchange student",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "tuition fee for an exchange student",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "sir, I want to know the tuition fee for exchange student program ",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 24,
+            "end": 56,
+            "value": "tuition fee for exchange student",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "exchange student",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "exchange student",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "semester abroad tuition",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "semester abroad tuition",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "cost of studying abroad at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "cost of studying abroad",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "Academic cost for exchange student to Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Academic cost for exchange student",
+            "entity": "tuition_exchange_student"
+          }
+        ]
+      },
+      {
+        "text": "can I pay school fees in monthly installments",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 33,
+            "end": 45,
+            "value": "installments",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Can my parents pay in installments if they cannot afford it all at once",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "installments",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Can I pay school fees in intervals",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 10,
+            "end": 34,
+            "value": "school fees in intervals",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Is it allowed to pay tuition fees in 2 intervals",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 29,
+            "end": 48,
+            "value": "fees in 2 intervals",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Is it allowed to pay tuition fees in two intervals",
+        "intent": "",
+        "entities": [
+          {
+            "start": 21,
+            "end": 50,
+            "value": "tuition fees in two intervals",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Is it allowed to pay tuition fees in monthly installments",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 37,
+            "end": 57,
+            "value": "monthly installments",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Is partial payment allowed at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 3,
+            "end": 26,
+            "value": "partial payment allowed",
+            "entity": "tuition_installment"
+          },
+          {
+            "start": 3,
+            "end": 18,
+            "value": "partial payment",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Monthly installment for school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "installment",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Negotiation for partial payment",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 31,
+            "value": "partial payment",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "can I pay school fees small small",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 10,
+            "end": 33,
+            "value": "school fees small small",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "Can I spread tuition payment throughout the semester",
+        "intent": "",
+        "entities": [
+          {
+            "start": 6,
+            "end": 28,
+            "value": "spread tuition payment",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "spread the tuition payment throughout the semester",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "spread the tuition payment",
+            "entity": "tuition_installment"
+          }
+        ]
+      },
+      {
+        "text": "How do I pay for tuition fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "How do I pay",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "payments methods of school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "payments methods",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "Can I pay my school fees via mobile money",
+        "intent": "",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "mobile money",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "which bank account should I pay my fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 6,
+            "end": 18,
+            "value": "bank account",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "Is mobile money ok to pay tuition fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "mobile money",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "modes of paying school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "modes of paying",
+            "entity": "payment_methods"
+          },
+          {
+            "start": 0,
+            "end": 27,
+            "value": "modes of paying school fees",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "where can I pay school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "where can I pay school fees",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "which bank can I deposit my school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 6,
+            "end": 24,
+            "value": "bank can I deposit",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "can I deposit my school fees in  a bank",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 17,
+            "end": 39,
+            "value": "school fees in  a bank",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "Can I deposit my tuition fee at ecobank  bank",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 32,
+            "end": 45,
+            "value": "ecobank  bank",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "How much is tuition fee at college",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "tuition fee",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "does school fees includes food costs",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 5,
+            "end": 36,
+            "value": "school fees includes food costs",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "Are meals part of the school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 4,
+            "end": 33,
+            "value": "meals part of the school fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "does school fees cover food",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 5,
+            "end": 27,
+            "value": "school fees cover food",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "what is the school fees comprised of",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 36,
+            "value": "school fees comprised of",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is accommodation on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "How much is accommodation on campus",
+            "entity": "tuition"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "accommodation",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "does tuition fee cover accommodation",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "does tuition fee cover accommodation",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "how much is on campus housing",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "how much is on campus housing",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is on campus accommodation",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "How much is on campus accommodation",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "methods to pay school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "methods to pay school fees",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "school fees payment methods",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "school fees payment methods",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "an I use mobile money to pay tuition fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 9,
+            "end": 41,
+            "value": "mobile money to pay tuition fees",
+            "entity": "payment_methods"
+          },
+          {
+            "start": 9,
+            "end": 21,
+            "value": "mobile money",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "which bank account should l deposit school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 6,
+            "end": 18,
+            "value": "bank account",
+            "entity": "payment_methods"
+          },
+          {
+            "start": 6,
+            "end": 47,
+            "value": "bank account should l deposit school fees",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "should I use cash or bank or mobile money to pay school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 13,
+            "end": 41,
+            "value": "cash or bank or mobile money",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "How to pay school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "How to pay school fees",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "how do I pay my tuition fee",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "how do I pay my tuition fee",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "where do I pay my tuition fee",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "where do I pay my tuition fee",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "methods of paying Ashesi school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "methods of paying Ashesi school fees",
+            "entity": "payment_methods"
+          },
+          {
+            "start": 0,
+            "end": 17,
+            "value": "methods of paying",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "means of paying school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "means of paying school fees",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "Breakdown of the school fees structure",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "Breakdown of the school fees structure",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "What does the school fees cover",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 14,
+            "end": 31,
+            "value": "school fees cover",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "what does the tuition cover",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "tuition cover",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "I want to know what constitute Ashesi school fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 15,
+            "end": 49,
+            "value": "what constitute Ashesi school fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "I want to know what the school fees includes",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 15,
+            "end": 44,
+            "value": "what the school fees includes",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "I want to know what the Ashesi school fees is comprised of",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 24,
+            "end": 58,
+            "value": "Ashesi school fees is comprised of",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the breakdown of the school fees structure",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 19,
+            "end": 57,
+            "value": "breakdown of the school fees structure",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "How much is room and board",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 26,
+            "value": "room and board",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "how much is on campus housing",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "on campus housing",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "how much is it to stay on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 32,
+            "value": "stay on campus",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "room and board oncampus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "room and board",
+            "entity": "accomodation"
+          },
+          {
+            "start": 0,
+            "end": 23,
+            "value": "room and board oncampus",
+            "entity": "accomodation"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "board",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "room and board fee at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "room and board",
+            "entity": "accomodation"
+          },
+          {
+            "start": 0,
+            "end": 18,
+            "value": "room and board fee",
+            "entity": "accomodation"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "board",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "can I get a room on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 26,
+            "value": "room on campus",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "housing on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "housing on campus",
+            "entity": "accomodation"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "housing",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "can one decides to stay off campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "off campus",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "I want to stay off campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "off campus",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "on campus housing",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "housing",
+            "entity": "accomodation"
+          },
+          {
+            "start": 3,
+            "end": 17,
+            "value": "campus housing",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "how much is on campus housing",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "on campus housing",
+            "entity": "accomodation"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "housing",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "how much is the cost to stay on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "stay on campus",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "What is the costs of on campus housing",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "campus housing",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "Do you cook on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "cook on campus",
+            "entity": "accomodation"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "cook",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "I want to cook on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "cook",
+            "entity": "accomodation"
+          },
+          {
+            "start": 10,
+            "end": 24,
+            "value": "cook on campus",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "Are we allowed to cook on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 32,
+            "value": "cook on campus",
+            "entity": "accomodation"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "cook",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "cooking policy",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "cooking",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "cooking policy at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "cooking",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "how do I pay tuition fee",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "pay tuition fee",
+            "entity": "payment_methods"
+          }
+        ]
+      },
+      {
+        "text": "How to get on campus accommodation",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "campus accommodation",
+            "entity": "accomodation"
+          },
+          {
+            "start": 21,
+            "end": 34,
+            "value": "accommodation",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "I want on campus accomodation",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 10,
+            "end": 29,
+            "value": "campus accomodation",
+            "entity": "accomodation"
+          },
+          {
+            "start": 17,
+            "end": 29,
+            "value": "accomodation",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "what shall I do to get a room on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": " room on campus",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "Accomodation",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Accomodation",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "I want accommodation on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "accommodation",
+            "entity": "accomodation"
+          },
+          {
+            "start": 7,
+            "end": 30,
+            "value": "accommodation on campus",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "can I board on school",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "board",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "food",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "What is the average price of food",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "price of food",
+            "entity": "food"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "Where do l get food",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "plate of food cost how much",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "plate of food",
+            "entity": "food"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "food ",
+            "entity": "food"
+          },
+          {
+            "start": 0,
+            "end": 18,
+            "value": "plate of food cost",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "how much is food on campus",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "food",
+            "entity": "food"
+          },
+          {
+            "start": 12,
+            "end": 26,
+            "value": "food on campus",
+            "entity": "food"
+          },
+          {
+            "start": 0,
+            "end": 16,
+            "value": "how much is food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "food cost",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "food cost",
+            "entity": "food"
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "cost of food",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "food",
+            "entity": "food"
+          },
+          {
+            "start": 0,
+            "end": 12,
+            "value": "cost of food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "Does Ashesi offer food",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "eat",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "eat",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "do you have a dinning hall",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "dinning hall",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "do you have a dinning hall  at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "dinning hall",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "dinning hall",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "dinning hall",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "how many cafeterias do you have",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "cafeterias",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "cafeteria",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "cafeteria",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "How much does food cost",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "food cost",
+            "entity": "food"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "semester fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "fees",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "semester fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "how much is fees per semester",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "fees per semester",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "semester fees at university",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "semester fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "how much is semester fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "semester fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "semester  school fees at Ashesi",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "semester  school fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "semester tuition fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "tuition fees",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "semester tuition fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "semester school fees at your school",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "semester school fees",
+            "entity": "tuition"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "school fees",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "tuition fee per semester",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "tuition fee per semester",
+            "entity": "tuition"
+          },
+          {
+            "start": 0,
+            "end": 11,
+            "value": "tuition fee",
+            "entity": "tuition"
+          }
+        ]
+      },
+      {
+        "text": "semester housing fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "semester housing fees",
+            "entity": "accomodation"
+          },
+          {
+            "start": 9,
+            "end": 21,
+            "value": "housing fees",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "semester accommodation fees",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "semester accommodation fees",
+            "entity": "accomodation"
+          },
+          {
+            "start": 9,
+            "end": 27,
+            "value": "accommodation fees",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "housing fee per semester",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "housing fee per semester",
+            "entity": "accomodation"
+          },
+          {
+            "start": 0,
+            "end": 11,
+            "value": "housing fee",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "How much is the housing fee",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "housing fee",
+            "entity": "accomodation"
+          }
+        ]
+      },
+      {
+        "text": "how much is accommodation fee per semester",
+        "intent": "fees",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "accommodation fee",
+            "entity": "accomodation"
+          },
+          {
+            "start": 12,
+            "end": 42,
+            "value": "accommodation fee per semester",
+            "entity": "accomodation"
+          }
+        ]
+      }
+    ]
+  }
+}
