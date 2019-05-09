@@ -1,0 +1,103 @@
+
+Experiment with Print Profiles:
+
+python3 Identification/PrintAllProfiles.py 3b1ec42c30884c2eadaec6f1975ec0f6 
+
+Create Profiles:
+
+python3 Identification/CreateProfile.py 3b1ec42c30884c2eadaec6f1975ec0f6\
+
+
+ALL PROFILES
+0610dd36-3fe7-44a1-83ab-9327b499cd72 - Jojoe
+380b5a3f-8a2b-4099-aede-b664e1a5c19c - Julianne
+3ab419dc-d1f1-44d5-9bb9-9707f2f7240e - Kwame
+-----  e3871ba8-801c-44e7-91dd-6029133a74dd - Sasu
+
+726dd798-3991-49c8-ba37-b47dcb7303cf - Joseph
+32761929-3a47-4038-9d30-589423646f65 - Gladys
+
+"/Users/admin/Desktop/Courses/CS Applied Capstone Project/Project Folder/capstone-final/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Trained Voices/GladysTrain1.wav"
+
+/Users/admin/Desktop/Courses/CS Applied Capstone Project/Project Folder/capstone-final/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Trained Verify/GladysVerify.wav
+
+python3 Identification/EnrollProfile.py 3b1ec42c30884c2eadaec6f1975ec0f6 0610dd36-3fe7-44a1-83ab-9327b499cd72 "/Users/admin/Desktop/Courses/CS Applied Capstone Project/Project Folder/capstone-final/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Trained Voices" False;   - Enrollment
+
+
+
+python3 Identification/IdentifyFile.py 3b1ec42c30884c2eadaec6f1975ec0f6  "/Users/admin/Desktop/Courses/CS Applied Capstone Project/Project Folder/capstone-final/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Trained Voices/JojoeTrainLast.wav" False "0610dd36-3fe7-44a1-83ab-9327b499cd72,380b5a3f-8a2b-4099-aede-b664e1a5c19c,3ab419dc-d1f1-44d5-9bb9-9707f2f7240e,726dd798-3991-49c8-ba37-b47dcb7303cf"
+
+"0610dd36-3fe7-44a1-83ab-9327b499cd72,380b5a3f-8a2b-4099-aede-b664e1a5c19c,3ab419dc-d1f1-44d5-9bb9-9707f2f7240e,726dd798-3991-49c8-ba37-b47dcb7303cf,32761929-3a47-4038-9d30-589423646f65"
+
+python3 Identification/IdentifyFile.py 3b1ec42c30884c2eadaec6f1975ec0f6  
+
+python3 Identification/IdentifyFile.py 3b1ec42c30884c2eadaec6f1975ec0f6 "/Users/admin/Desktop/Courses/CS Applied Capstone Project/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Trained Voices/JojoeTrain.wav" False 0610dd36-3fe7-44a1-83ab-9327b499cd72;
+
+python3 Identification/IdentifyFile.py 3b1ec42c30884c2eadaec6f1975ec0f6 "/Users/admin/Desktop/Courses/CS Applied Capstone Project/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Trained Voices/JojoeTrain.wav" False "0610dd36-3fe7-44a1-83ab-9327b499cd72,380b5a3f-8a2b-4099-aede-b664e1a5c19c,3ab419dc-d1f1-44d5-9bb9-9707f2f7240e,726dd798-3991-49c8-ba37-b47dcb7303cf"
+
+Profile Ids;
+0610dd36-3fe7-44a1-83ab-9327b499cd72
+4da870c9-77cd-4f36-a837-e9e1bf10cb1b
+6fb1b26c-6cc1-4618-bc06-5927b4c5c966
+909465e5-b3b5-459c-8e99-c2099b503c85
+c5e1a2d4-84a5-46df-9b5d-cb48b093c40c
+
+
+480e71f2-7dbc-4bf8-b7db-3225a91f7925 = Jojoe
+eea3741f-d836-4def-bf61-e76262ab62c3 = Gladys
+
+
+
+Verification:
+python3 Verification/GetProfile.py 3b1ec42c30884c2eadaec6f1975ec0f6 cbafd012-c2bb-485e-9774-b3d8cf7edd26 
+
+
+python3 Verification/VerifyFile.py 3b1ec42c30884c2eadaec6f1975ec0f6 "/Users/admin/Desktop/Courses/CS Applied Capstone Project/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Test Voices/JojoeTest.wav" cbafd012-c2bb-485e-9774-b3d8cf7edd26 
+
+
+python3 Verification/CreateProfile.py 3b1ec42c30884c2eadaec6f1975ec0f6
+
+python3 Verification/EnrollProfile.py 3b1ec42c30884c2eadaec6f1975ec0f6 480e71f2-7dbc-4bf8-b7db-3225a91f7925 "/Users/admin/Desktop/Courses/CS Applied Capstone Project/Project Folder/capstone-final/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Trained Verify/JojoeVerify3.wav" 
+
+
+python3 Verification/VerifyFile.py 3b1ec42c30884c2eadaec6f1975ec0f6 "/Users/admin/Desktop/Courses/CS Applied Capstone Project/Project Folder/capstone-final/Speaker Recognition/Cognitive-SpeakerRecognition-Python/Data/Test Voices/JojoeVerifyTest.wav" 480e71f2-7dbc-4bf8-b7db-3225a91f7925
+
+Enrollment Phrase = my voice is my passport verify me
+
+480e71f2-7dbc-4bf8-b7db-3225a91f7925 = JojoeVerify
+eea3741f-d836-4def-bf61-e76262ab62c3 = GladysVerify
+
+
+
+Phrases to Use:
+
+
+  "phrase": "i am going to make him an offer he cannot refuse"
+  },
+  {
+    "phrase": "houston we have had a problem"
+  },
+  {
+    "phrase": "my voice is my passport verify me"
+  },
+  {
+    "phrase": "apple juice tastes funny after toothpaste"
+  },
+  {
+    "phrase": "you can get in without your password"
+  },
+  {
+    "phrase": "you can activate security system now"
+  },
+  {
+    "phrase": "my voice is stronger than passwords"
+  },
+  {
+    "phrase": "my password is not your business"
+  },
+  {
+    "phrase": "my name is unknown to you"
+  },
+  {
+    "phrase": "be yourself everyone else is already taken"
+  }
